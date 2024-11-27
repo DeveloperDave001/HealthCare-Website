@@ -41,3 +41,106 @@
     font-weight: bold;
     text-decoration: underline;
 }
+
+@media screen and (max-width : 768px) {
+    body{
+     background-color:#e7e7ff;
+     width: 100%;
+     height: 20vh;
+     background-image: url(pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
+     background-position: center;
+     object-fit: cover;
+     background-repeat: no-repeat;
+     background-size: 200%;
+   }
+
+   .pageContent{
+    display: none;
+   }
+   
+   .hero1{
+     visibility: hidden;
+   }
+   .hero2{
+     visibility: hidden;
+   }
+   .lattestNews{
+     visibility: hidden;
+   }
+   .footer{
+     visibility: hidden;
+   }
+   .year{
+     visibility: hidden;
+   }
+   .Access{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 90%;
+     position: absolute;
+     top: 20vw;
+     background-color: #7676ffbe;
+     border-radius: 20px;
+     backdrop-filter: blur(.2rem);
+     
+   }
+   .accessT{
+     font-size: 7vw;
+     padding: 5vw;
+     z-index: 1;
+     color: #fff;
+   }
+}
+
+   @media screen and (max-width : 984px) {
+    body{
+     background-color:#e7e7ff;
+     width: 100%;
+     height: 20vh;
+     background-image: url(pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
+     background-position: center;
+     object-fit: cover;
+     background-repeat: no-repeat;
+     background-size: 200%;
+   }
+  
+   .pageContent{
+    display: none;
+   }
+   
+   .hero1{
+     visibility: hidden;
+   }
+   .hero2{
+     visibility: hidden;
+   }
+   .lattestNews{
+     visibility: hidden;
+   }
+   .footer{
+     visibility: hidden;
+   }
+   .year{
+     visibility: hidden;
+   }
+   .Access{
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 90%;
+     position: absolute;
+     top: 20vw;
+     background-color: #7676ffbe;
+     border-radius: 20px;
+     backdrop-filter: blur(.2rem);
+     
+   }
+   .accessT{
+     font-size: 7vw;
+     padding: 5vw;
+     z-index: 1;
+     color: #fff;
+   }
+   }
