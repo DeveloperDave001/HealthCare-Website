@@ -12,7 +12,7 @@
     border-radius: 20px;
     margin:auto auto;
     transition: .5s ease;
-    background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(pics/BDIC.jpg);
+    background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(Pics/BDIC.jpg);
     background-blend-mode: overlay;
     background-position: center;
 
@@ -47,7 +47,7 @@
      background-color:#e7e7ff;
      width: 100%;
      height: 20vh;
-     background-image: url(pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
+     background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
      background-position: center;
      object-fit: cover;
      background-repeat: no-repeat;
@@ -98,7 +98,7 @@
      background-color:#e7e7ff;
      width: 100%;
      height: 20vh;
-     background-image: url(pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
+     background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
      background-position: center;
      object-fit: cover;
      background-repeat: no-repeat;
