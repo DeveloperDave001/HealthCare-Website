@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -11,12 +18,22 @@ body {
     margin: 0;
 }
 body{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 1vw 5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
  
 /*     margin-bottom: 100vw;
  */ } 
@@ -56,15 +73,22 @@ input, textarea{
     
    width: 95%;
     height: 4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: auto;
     margin-bottom: 40px;
   }
   header img{
     width:6.6vw;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 /*     border: var(--btn-border);
     border-radius: 50%;
  */  }
@@ -72,14 +96,26 @@ input, textarea{
   nav{
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
   }
   nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: right;
-    align-items: center;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 3vw;
     
   }
@@ -94,6 +130,8 @@ input, textarea{
     font-weight: var(--nav-fontW);
     text-decoration: none;
     padding: var(--btn-padding);
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
   }
   nav a:hover, nav a:focus{
@@ -110,14 +148,25 @@ input, textarea{
     background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
     background-position: center;
     background-size: 160%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-radius: 30px;
     position: relative;
     padding: 2vw;
     gap: 2vw;
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
   }
 
@@ -129,6 +178,8 @@ input, textarea{
   position: absolute;
   border-radius: 30px;
   opacity: 0;
+  -webkit-transition: var(--transitin);
+  -o-transition: var(--transitin);
   transition: var(--transitin);
 }
 
@@ -143,7 +194,8 @@ input, textarea{
     z-index: 1;
   }
   .subject img{
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 67.4%;
   }
   .heading{
@@ -155,9 +207,15 @@ input, textarea{
   .s-text{
     width: 86%;
     height: 6%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: -2vw;
   }
   .s-text p{
@@ -170,9 +228,15 @@ input, textarea{
   .hero-sub{
     width: 90%;
     height: 17vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     z-index: 2;
 
   }
@@ -181,10 +245,19 @@ input, textarea{
     height: 50%;
     background-color: var(--bg-color2);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
     padding: .5vw 1vw;
   }
 
@@ -197,10 +270,19 @@ input, textarea{
   .action-btn{
     width: 30%;
     height: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-flow: row nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
   }
   .action{
     padding: 4px 15px;
@@ -209,6 +291,8 @@ input, textarea{
     background-color: var(--btn-color);
     color: var(--bg-color2);
     border-radius: var(--border-r);
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
   }
   .action:hover, .acttion:focus{
@@ -217,32 +301,47 @@ input, textarea{
   }
   .hero2{
     width: 100%;
-/*     height: 100vw;
- */    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-flow: column wrap;
+     /* height: 300vh; */
+     display: -webkit-box;    display: -ms-flexbox;    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
     margin-top: 5vw;
     margin-bottom: .5vw;
-  }
+/*     border: red 2px solid;
+ */  }
 
   .about-us{
-    width: 80%;
-    height: 50vh;
+    width: 95%;
+     height: 70vh; 
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     align-items: center;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    gap:1vw;
    margin-left: 2vw;
-   margin-top: -2vw;
+   margin-top: 1vw;
   }
   .about-us img{
     width: 10vw;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .about-us .content{
-    width: 55vw;
+    width: 60vw;
   }
   .Learn{
     height: 2vw;
@@ -253,6 +352,8 @@ input, textarea{
     background-color: var(--btn-color);
     color: var(--bg-color2);
     border-radius: var(--border-r);
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
   }
   .Learn:hover, .Learn:focus{
@@ -264,10 +365,19 @@ input, textarea{
       width: 100%;
       height: 100vh;
       background-color: var(--bg-color);
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: start;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: start;
       border-radius: 30px;
       padding: 2vw;
       gap: 2vw;
@@ -275,20 +385,34 @@ input, textarea{
    .newsBox{
     width: 100%;
     height: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 10px;
    }
    .news{
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 /*     border: #3a3a3a solid 2px;
  */    height: 100%;
     background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-radius: 15px;
     position: relative;
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
    }
 
@@ -298,10 +422,13 @@ input, textarea{
    }
    .news img{
     width: 15%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: absolute;
     right: 5px;
     bottom: 5px;
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
    }
    .news img:hover, .new img:focus{
@@ -320,10 +447,19 @@ input, textarea{
     background-color: #3a3a3a;
     width: 100%;
     height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: start;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     padding: 2vw;
     border-radius: 10px;
@@ -333,9 +469,14 @@ input, textarea{
 /*     border: #fff solid 2px;
  */    height: 10%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
    }
    .footerNav li{
     list-style: none;
@@ -346,6 +487,8 @@ input, textarea{
     padding: .4vw 1vw;
     background-color: var(--bg-color2);
     border-radius: 3vw;
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
    }
    .footerNav li a:hover,  .footerNav li a:focus{
@@ -358,9 +501,15 @@ input, textarea{
     width: 100%;
     height: 80%;
     margin-top: 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-right: 1vw;
     padding-left: 1vw;
     gap:7vw;
@@ -371,6 +520,8 @@ input, textarea{
    .footerContent a{
     color: #fff;
     text-decoration: none;
+    -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
     transition: var(--transitin);
    }
    .footerContent a:hover, .footerContent a:focus{
@@ -396,9 +547,15 @@ input, textarea{
     margin-top: .5vw;
     margin-bottom: -3vw;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .content p{
     font-size: 1.3vw;
@@ -431,9 +588,15 @@ input, textarea{
     margin-top: .5vw;
     margin-bottom: -3vw;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .Learn{
     width: 25vw;
@@ -475,7 +638,8 @@ input, textarea{
   height: 20vh;
   background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
   background-position: center;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-repeat: no-repeat;
   background-size: 200%;
 }
@@ -496,15 +660,22 @@ input, textarea{
   visibility: hidden;
 }
 .Access{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 90%;
   position: absolute;
   top: 20vw;
   background-color: #7676ffbe;
   border-radius: 20px;
-  backdrop-filter: blur(.2rem);
+  -webkit-backdrop-filter: blur(.2rem);
+          backdrop-filter: blur(.2rem);
   
 }
 .accessT{
@@ -523,7 +694,8 @@ input, textarea{
    height: 20vh;
    background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
    background-position: center;
-   object-fit: cover;
+   -o-object-fit: cover;
+      object-fit: cover;
    background-repeat: no-repeat;
    background-size: 200%;
  }
@@ -548,15 +720,22 @@ input, textarea{
    visibility: hidden;
  }
  .Access{
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   align-items: center;
-   justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
    width: 90%;
    position: absolute;
    top: 20vw;
    background-color: #7676ffbe;
    border-radius: 20px;
-   backdrop-filter: blur(.2rem);
+   -webkit-backdrop-filter: blur(.2rem);
+           backdrop-filter: blur(.2rem);
    
  }
  .accessT{

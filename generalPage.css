@@ -1,146 +1,186 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 
 .headingSection{
-    width: 100%;
-    height: 40vh;
+  width: 100%;
+  height: 40vh;
 /*     border: #3a3a3a solid 3px;
- */    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    background-color: #e8e8e8;
-    border-radius: 20px;
-    margin:auto auto;
-    transition: .5s ease;
-    background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(Pics/BDIC.jpg);
-    background-blend-mode: overlay;
-    background-position: center;
+*/    display: -webkit-box;    display: -ms-flexbox;    display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  background-color: #e8e8e8;
+  border-radius: 20px;
+  margin:auto auto;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(Pics/BDIC.jpg);
+  background-blend-mode: overlay;
+  background-position: center;
 
 }
 .headingSection h1{
-    font-size: 6vw;
-    color: var(--h1-color);
-    text-align: center;
+  font-size: 6vw;
+  color: var(--h1-color);
+  text-align: center;
 }
 .headingSection:hover, .headingSection:focus ~ .headingSection h1{
-    background-color: #b4b4b4;
+  background-color: #b4b4b4;
 }
 .pageContent{
-    width: 100%;
-    /* height: 200vh */;
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    justify-content: start;
-    padding: 2vw 5vw;
+  width: 100%;
+  /* height: 200vh */;
+  display: -webkit-box;;
+  display: -ms-flexbox;;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 2vw 5vw;
 }
 .headforpages{
-    padding-bottom: 30px;
-    color: #3a3a3a;
-    font-size: 1.5vw;
-    font-weight: bold;
-    text-decoration: underline;
+  padding-bottom: 30px;
+  color: #3a3a3a;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media screen and (max-width : 768px) {
-    body{
-     background-color:#e7e7ff;
-     width: 100%;
-     height: 20vh;
-     background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
-     background-position: center;
-     object-fit: cover;
-     background-repeat: no-repeat;
-     background-size: 200%;
-   }
+  body{
+   background-color:#e7e7ff;
+   width: 100%;
+   height: 20vh;
+   background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
+   background-position: center;
+   -o-object-fit: cover;
+      object-fit: cover;
+   background-repeat: no-repeat;
+   background-size: 200%;
+ }
 
-   .pageContent{
-    display: none;
-   }
+ .pageContent{
+  display: none;
+ }
+ 
+ .hero1{
+   visibility: hidden;
+ }
+ .hero2{
+   visibility: hidden;
+ }
+ .lattestNews{
+   visibility: hidden;
+ }
+ .footer{
+   visibility: hidden;
+ }
+ .year{
+   visibility: hidden;
+ }
+ .Access{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   width: 90%;
+   position: absolute;
+   top: 20vw;
+   background-color: #7676ffbe;
+   border-radius: 20px;
+   -webkit-backdrop-filter: blur(.2rem);
+           backdrop-filter: blur(.2rem);
    
-   .hero1{
-     visibility: hidden;
-   }
-   .hero2{
-     visibility: hidden;
-   }
-   .lattestNews{
-     visibility: hidden;
-   }
-   .footer{
-     visibility: hidden;
-   }
-   .year{
-     visibility: hidden;
-   }
-   .Access{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 90%;
-     position: absolute;
-     top: 20vw;
-     background-color: #7676ffbe;
-     border-radius: 20px;
-     backdrop-filter: blur(.2rem);
-     
-   }
-   .accessT{
-     font-size: 7vw;
-     padding: 5vw;
-     z-index: 1;
-     color: #fff;
-   }
+ }
+ .accessT{
+   font-size: 7vw;
+   padding: 5vw;
+   z-index: 1;
+   color: #fff;
+ }
 }
 
-   @media screen and (max-width : 984px) {
-    body{
-     background-color:#e7e7ff;
-     width: 100%;
-     height: 20vh;
-     background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
-     background-position: center;
-     object-fit: cover;
-     background-repeat: no-repeat;
-     background-size: 200%;
-   }
+ @media screen and (max-width : 984px) {
+  body{
+   background-color:#e7e7ff;
+   width: 100%;
+   height: 20vh;
+   background-image: url(Pics/african-american-black-doctor-man-with-stethoscope-isolated-white-background.jpg);
+   background-position: center;
+   -o-object-fit: cover;
+      object-fit: cover;
+   background-repeat: no-repeat;
+   background-size: 200%;
+ }
+
+ .pageContent{
+  display: none;
+ }
+ 
+ .hero1{
+   visibility: hidden;
+ }
+ .hero2{
+   visibility: hidden;
+ }
+ .lattestNews{
+   visibility: hidden;
+ }
+ .footer{
+   visibility: hidden;
+ }
+ .year{
+   visibility: hidden;
+ }
+ .Access{
   
-   .pageContent{
-    display: none;
-   }
+   display: -webkit-box;
+  
+   display: -ms-flexbox;
+  
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   width: 90%;
+   position: absolute;
+   top: 20vw;
+   background-color: #7676ffbe;
+   border-radius: 20px;
+   -webkit-backdrop-filter: blur(.2rem);
+           backdrop-filter: blur(.2rem);
    
-   .hero1{
-     visibility: hidden;
-   }
-   .hero2{
-     visibility: hidden;
-   }
-   .lattestNews{
-     visibility: hidden;
-   }
-   .footer{
-     visibility: hidden;
-   }
-   .year{
-     visibility: hidden;
-   }
-   .Access{
-    
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 90%;
-     position: absolute;
-     top: 20vw;
-     background-color: #7676ffbe;
-     border-radius: 20px;
-     backdrop-filter: blur(.2rem);
-     
-   }
-   .accessT{
-     font-size: 7vw;
-     padding: 5vw;
-     z-index: 1;
-     color: #fff;
-   }
-   }
+ }
+ .accessT{
+   font-size: 7vw;
+   padding: 5vw;
+   z-index: 1;
+   color: #fff;
+ }
+ }
