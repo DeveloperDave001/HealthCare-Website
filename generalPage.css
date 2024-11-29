@@ -28,12 +28,16 @@
   background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(Pics/BDIC.jpg);
   background-blend-mode: overlay;
   background-position: center;
+  mix-blend-mode: multiply;
 
 }
 .headingSection h1{
   font-size: 6vw;
   color: var(--h1-color);
   text-align: center;
+  -webkit-text-stroke: #000094 1.5px;
+  -webkit-text-fill-color: transparent;
+
 }
 .headingSection:hover, .headingSection:focus ~ .headingSection h1{
   background-color: #b4b4b4;
