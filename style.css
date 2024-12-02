@@ -887,6 +887,72 @@ font-size: 12px;
 }
   }
 
+  @media only screen and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    body{
+      overflow-x: hidden;
+      position: relative;
+      margin-top: 6vw;
+    }
+
+    header nav{
+      display: none;
+    }
+    header img{
+      display: none;
+    }
+  .hero1{
+      background-size: 270%;
+      background-position: 40% 60%;
+      
+    } 
+    .heading{
+    }
+    .changecolor{
+    }
+    .s-text{
+    }
+
+    .s-text p{
+      text-align: center;
+      font-size: 8px;
+      width: 100%;
+    }
+    .hero-sub{
+      border: #3a3a3a solid;
+      height: 50%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-evenly;
+    }
+    .sub-content{
+      width: 80%;
+      height: 30%;
+    }
+    .action-btn{
+      width: 100%;
+      gap: 3vw;
+      
+    }
+    .action{
+      width: 25vw;
+      margin: 2vw;
+      height: 4vw;
+      font-weight: bolder;
+    }
+    
+    .hero2{
+      margin-top: -5vw;
+    }
+    .about-us{
+      height: 60vh;
+    }
+
+
+  }
+
+
+
 /* Andriod Phones */
 @media only screen 
   and (min-device-width: 320px) 
