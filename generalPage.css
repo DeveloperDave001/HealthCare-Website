@@ -180,7 +180,7 @@ and (-webkit-min-device-pixel-ratio: 1){
 @media screen and (max-device-width: 560px) 
 and (-webkit-min-device-pixel-ratio: 1){
   #otherBtn{
-    height: 10vw
+    height: 15vw
   }
 }
 @media screen and (max-device-width: 400px) 
@@ -189,10 +189,30 @@ and (-webkit-min-device-pixel-ratio: 1){
     height: 15vw
   }
 }
+@media screen and (max-device-width: 360px) 
+and (-webkit-min-device-pixel-ratio: 1){
+  .headingSection{
+    height: 30vh;
+  }
+  #IICTpage{
+    height: 30vh;
+  }
+  #otherBtn{
+    height: 15vw
+  }
+  #MobileBtn{
+    width: 70%;
+    height: 70wh;
+    font-size: 12px;
+  }
+}
 @media screen and (max-device-width: 320px) 
 and (-webkit-min-device-pixel-ratio: 1){
   #otherBtn{
     height: 20vw
+  }
+  .footer{
+    height: 180vh;
   }
 }
 
