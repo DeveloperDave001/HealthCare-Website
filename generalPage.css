@@ -134,7 +134,7 @@ input, textarea{
   background-color: #b4b4b4;
 }
 .pageContent{
-  width: 100%;
+  width: 90%;
   /* height: 200vh */;
   display: -webkit-box;;
   display: -ms-flexbox;;
@@ -150,6 +150,9 @@ input, textarea{
       -ms-flex-pack: start;
           justify-content: start;
   padding: 2vw 5vw;
+}
+.pageContent p{
+  text-align: justify;
 }
 
 .headforpages{
