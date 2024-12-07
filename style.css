@@ -616,10 +616,14 @@ display: none;
     gap:7vw;
    }
 
-   .footerContent{
-    color: #fff;
-
+   
+    .footerContent{
+      font-size: 14px;
+      width: 63vw;
+      color: #fff;
+      flex-flow: wrap;
    }
+
    .footerContent a{
     color: #fff;
     text-decoration: none;
@@ -629,6 +633,9 @@ display: none;
    }
    .footerContent a:hover, .footerContent a:focus{
     color: #a17d7d;
+   }
+   .m-logo{
+    display: none;
    }
 
 
@@ -2837,6 +2844,8 @@ font-size: 12px;
 
   @media only screen and (max-device-width: 380px) 
   and (-webkit-min-device-pixel-ratio: 1){
+
+  
     body{
    
  overflow-x: hidden;
@@ -3047,27 +3056,7 @@ display: flex;
 
 
 
-.logos{
-  width: 40%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          border: red solid;
-}
-.logos img{
-  object-fit: cover;
-  width: 100%;
-  width: 15px;
-  border: #3a3a3a solid 3px;
-  visibility: visible;
-}
+
 .search{
   width: 90%;
   gap: 1vw;
@@ -3140,8 +3129,8 @@ display: flex;
      .footer{
       height: 250vw;
       width: 80%;
-      padding: 3vw 2vw;
      }
+
      .footerNav{
       visibility: hidden;
      }
@@ -3153,8 +3142,9 @@ display: flex;
       .footerContent h2{
         font-size: 20px;
       }
-      .footerContent p{
+      .footerContent{
         font-size: 14px;
+        width: 63vw;
       }
 .year p{
   font-size: 4vw;
@@ -3203,6 +3193,18 @@ display: flex;
         -o-border-radius: 5vw;
         color: #fff;
         font-weight: bold;
+}
+.stateLogo{
+  display: flex;
+  position: absolute;
+  left: 10vw;
+  width: 12vw;
+}
+#bdicLogo{
+  display: flex;
+  position: absolute;
+  left: 20vw;
+  width: 15vw;
 }
 
 
