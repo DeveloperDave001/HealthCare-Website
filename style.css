@@ -2964,7 +2964,6 @@ font-size: 12px;
  -ms-border-radius: 2vw 0 0 6vw;
  -o-border-radius: 2vw 0 0 6vw;
  transform-origin: right top;
- border: #000094 solid;
  animation:.5s ease-in-out forwards ;
  -webkit-animation:.5s ease-in-out forwards ;
  transition:var(--transitin) ;
@@ -3065,8 +3064,18 @@ display: flex;
 .logos img{
   object-fit: cover;
   width: 100%;
+  width: 15px;
+  border: #3a3a3a solid 3px;
+  visibility: visible;
 }
-
+.search{
+  width: 90%;
+  gap: 1vw;
+}
+.search input{
+  height: 4vh;
+  width: 80%;
+}
 
     header nav{
       display: none;
@@ -3076,7 +3085,7 @@ display: flex;
     }
     .hero1{
       background-size: 120%;
-      height: 40vh;
+      height: 25vh;
       width: 94%;
     }
     .heading{
@@ -3100,26 +3109,26 @@ display: flex;
       font-size: 6vw;
     }
     .about-us{
-      height: 90vh;
+      height: 50vh;
     }
   
     #Con2{
-      height: 90vh;
+      height: 60vh;
     }
     #Con3{
-      height: 120vh;
+      height: 70vh;
     }
 
     .lattestNews{
-      height: 360vh;
-      gap: 10vw;
+      height: 280vh;
+      gap: 6vw;
       margin: 0;
     }
   
 
 
     .news{
-      height: 35vh;
+      height: 30vh;
       font-size: 14px;
       -webkit-box-flex: 1;
           -ms-flex: 1 1 calc(60%);
@@ -3129,7 +3138,7 @@ display: flex;
       width: 40px;
      }
      .footer{
-      height: 200vw;
+      height: 250vw;
       width: 80%;
       padding: 3vw 2vw;
      }
