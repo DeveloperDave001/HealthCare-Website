@@ -164,8 +164,7 @@ input, textarea{
 }
 .moreinfo{
   width: 100%;
-  min-height: 40vh;
-  max-height: 60vh;
+  height: 60vh;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -177,6 +176,7 @@ input, textarea{
   -o-border-radius: 10px;
   background-color: #9f9fff;
 }
+
 .moreinfo p{
   color: #000000;
   font-weight: bolder;
