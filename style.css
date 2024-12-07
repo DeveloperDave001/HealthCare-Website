@@ -3466,12 +3466,12 @@ font-size: 12px;
 }
 
 .MobileHeader{
-display: none;
 
 
-/*   display: -webkit-box;
+
+  display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; */
+  display: flex; 
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
