@@ -1241,6 +1241,7 @@ font-size: 12px;
     }
     
     .menu-icon, .menu-icon::before, .menu-icon::after{
+      background-color:#000094;
       position: absolute;
         width: 25px;
         height: 2px;
@@ -1562,6 +1563,7 @@ font-size: 12px;
     }
     
     .menu-icon, .menu-icon::before, .menu-icon::after{
+      background-color:#000094;
       position: absolute;
         width: 25px;
         height: 2px;
@@ -1941,6 +1943,7 @@ font-size: 12px;
     }
     
     .menu-icon, .menu-icon::before, .menu-icon::after{
+      background-color:#000094;
       position: absolute;
         width: 25px;
         height: 2px;
@@ -2304,6 +2307,7 @@ font-size: 12px;
      }
      
      .menu-icon, .menu-icon::before, .menu-icon::after{
+      background-color:#000094;
        position: absolute;
          width: 25px;
          height: 2px;
@@ -2695,6 +2699,7 @@ font-size: 12px;
      }
      
      .menu-icon, .menu-icon::before, .menu-icon::after{
+      background-color:#000094;
        position: absolute;
          width: 25px;
          height: 2px;
@@ -3080,6 +3085,7 @@ font-size: 12px;
      }
      
      .menu-icon, .menu-icon::before, .menu-icon::after{
+      background-color:#000094;
        position: absolute;
          width: 25px;
          height: 2px;
@@ -3472,6 +3478,7 @@ font-size: 12px;
 }
 
 .menu-icon, .menu-icon::before, .menu-icon::after{
+  background-color:#000094;
   position: absolute;
     width: 25px;
     height: 2px;
