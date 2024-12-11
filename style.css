@@ -336,12 +336,12 @@ display: none;
     margin-top: -2vw;
   }
   .s-text p{
-    color: #000094;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.4vw;
     padding: 1vw 1vw ;
-    background-color: #fff;
+    background-color: #3636e4;
     text-align: center;
     letter-spacing: .2vw;
   }
