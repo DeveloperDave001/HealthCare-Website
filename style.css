@@ -681,7 +681,7 @@ display: none;
      height: 90vh;
    }
    .news{
-    height: 33vh;
+    height: 40vh;
    }
    #newsBtn{
       height: 2vw;
@@ -701,6 +701,8 @@ display: none;
    }
 
 }
+
+
 
 
  @media screen and (max-device-width: 1600px) 
@@ -756,6 +758,42 @@ display: none;
     height: 60vh;
     margin-top: 0;
    }
+
+}
+
+@media screen and (max-device-width: 1380px) 
+and (-webkit-min-device-pixel-ratio: 1){
+
+  .about-us{
+  height: 65vh;
+
+}
+
+#Con2{
+  height: 65vh;
+}
+#Con3{
+  height: 65vh;
+}
+.Learn{
+  height: 3vw;
+  margin-top: 3vw;
+}
+
+
+#lattest{
+  height: 150vh;
+}
+
+.news{
+  height: 50vh;
+}
+
+#newsBtn{
+  height: 3vw;
+  margin-top: 3vw;
+}
+
 
 }
 
@@ -824,20 +862,18 @@ display: none;
    #Con3{
     height: 43vh;
    }
-   #newsBtn{
-    width: 40vw;
-    height: 8vh;
-    margin-top: 2vw;
-    font-size: 16px;
-   }
    .lattestNews{
     height:88vh;
     width: 80vw;
    }
    .news{
-    height: 25vh;
-    font-size: 14px;
-   }
+    height: 50vh;
+  }
+  
+  #newsBtn{
+    height: 3vw;
+    margin-top: 3vw;
+  }
    .news img{
     width: 3vw;
    }
@@ -852,7 +888,7 @@ display: none;
   }
 
    .footer{
-    height: 45vh;
+    height: 50vh;
    }
    .footerBox{
     -webkit-box-pack: center;
@@ -876,6 +912,19 @@ display: none;
 
 
 }
+
+@media only screen  
+  and (max-device-width: 1080px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    .news{
+      height: 60vh;
+    }
+    
+    #newsBtn{
+      height: 3vw;
+      margin-top: 3vw;
+    }
+  }
 
 
 @media only screen  
@@ -998,6 +1047,30 @@ display: none;
 
 }
 
+@media only screen  
+  and (max-device-width: 885px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+
+    
+    #newsBtn{
+      height: 3vw;
+      margin-top: 3vw;
+    }
+
+    .about-us{
+      height: 50vh;
+    }
+
+    #Con2{
+      height: 60vh;
+    }
+    #Con3{
+      height: 60vh;
+    }
+
+  }
+
+
 @media only screen 
   and (max-device-width: 880px) 
   and (-webkit-min-device-pixel-ratio: 1) {
@@ -1005,10 +1078,10 @@ display: none;
 
     .about-us{
       position: relative;
-      height: 50vh;
+      height: 40vh;
     }
     #Con3{
-      height: 60vh;
+      height: 50vh;
     }
     .content{
       font-size: 12px;
@@ -1061,10 +1134,10 @@ font-size: 12px;
 
     .about-us{
       position: relative;
-      height: 50vh;
+      height: 45vh;
     }
     #Con3{
-      height: 60vh;
+      height: 50vh;
     }
     .content{
       font-size: 12px;
@@ -1117,10 +1190,10 @@ font-size: 12px;
 
     .about-us{
       position: relative;
-      height: 50vh;
+      height: 40vh;
     }
     #Con3{
-      height: 60vh;
+      height: 50vh;
     }
     .content{
       font-size: 12px;
@@ -1165,9 +1238,6 @@ font-size: 12px;
   font-size: 12px;
 }
   }
-
-
-
 
 
   
@@ -1478,8 +1548,12 @@ font-size: 12px;
       height:70vh;
 
     } 
-    .lattestNews{
-      height: 190vh;
+    #lattest{
+      height: 200vh;
+    }
+    .lattestNews h1{
+      color: #000094;
+      text-align: center;
     }
     #newsBtn{
       width: 30vw;
@@ -1802,8 +1876,8 @@ font-size: 12px;
     }   
    
 
-    .lattestNews{
-      height: 245vh;
+    #lattest{
+      height: 250vh;
     }
     .lattestNews h1{
       color: #000094;
@@ -2520,7 +2594,7 @@ font-size: 12px;
       height: 8vw;
       width: 40vw;
     }
-    .lattestNews{
+    #lattest{
       height: 300vh;
     }
     .lattestNews h1{
