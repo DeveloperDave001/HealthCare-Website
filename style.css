@@ -711,6 +711,16 @@ display: none;
    body{
 /*     background-color: rgb(43, 255, 0);
  */  }
+
+ .Governor h2{
+  bottom: 2px;
+  width: 80%;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
  
   .hero2{
     margin-top: 2vw;
@@ -762,7 +772,12 @@ display: none;
 }
 
 
-
+@media screen and (max-device-width: 1768px) 
+ and (-webkit-min-device-pixel-ratio: 1){
+  .Governor h2{
+    bottom: -30px;
+  }
+ }
 
  @media screen and (max-device-width: 1600px) 
  and (-webkit-min-device-pixel-ratio: 1) { 
@@ -881,6 +896,23 @@ and (-webkit-min-device-pixel-ratio: 1){
       font-size: 10px;
       background-color: #d8d8d8c9;
    }
+
+   
+   .Governor h2{
+    bottom: 30px;
+    font-size: 14px;
+    width: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+   .hero1{
+    height: 100vh;
+    margin-bottom: 1.5vw;
+   }
+
    .hero1{
     height: 100vh;
     margin-bottom: 1.5vw;
@@ -1010,6 +1042,19 @@ and (-webkit-min-device-pixel-ratio: 1){
       font-size: 10px;
       background-color: #d8d8d8c9;
    }
+
+
+   
+   .Governor h2{
+    bottom: 30px;
+    font-size: 14px;
+    width: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
    .hero1{
     height: 100vh;
     margin-bottom: 1.5vw;
@@ -1132,6 +1177,28 @@ and (-webkit-min-device-pixel-ratio: 1){
 @media only screen 
   and (max-device-width: 880px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+    .heroSpecial{
+      width: 100%;
+      height: 120vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column wrap;
+      margin-top: 3vw;
+      gap: 1vw;
+      padding: 0 20px;
+    }
+    .Governor h2{
+      width: 90%;
+      font-size: 14px;
+      border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
+}
+
 
 
     .about-us{
@@ -1537,7 +1604,23 @@ font-size: 12px;
    }
    
 
-
+   .heroSpecial{
+    width: 100%;
+    height: 110vh;
+    flex-flow: column wrap;
+   }
+   .Governor h2{
+    bottom: 5px;
+    font-size: 10px;
+    width: 90%;
+    background-color: #000094;
+    line-height: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
 
   .hero1{
     height: 60vw;
@@ -1660,7 +1743,23 @@ font-size: 12px;
      width: 15vw;
    }
    
-
+   .heroSpecial{
+    width: 100%;
+    height: 100vh;
+    flex-flow: column wrap;
+   }
+   .Governor h2{
+    bottom: 5px;
+    font-size: 10px;
+    width: 90%;
+    background-color: #000094;
+    line-height: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
 
 
   .hero1{
@@ -1839,7 +1938,23 @@ font-size: 12px;
    }
    
 
-
+   .heroSpecial{
+    width: 100%;
+    height: 90vh;
+    flex-flow: column wrap;
+   }
+   .Governor h2{
+    bottom: 5px;
+    font-size: 10px;
+    width: 90%;
+    background-color: #000094;
+    line-height: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
 
   .hero1{
     height: 60vw;
@@ -2009,6 +2124,26 @@ font-size: 12px;
     header img{
       display: none;
     }
+
+    .heroSpecial{
+      width: 100%;
+      height: 80vh;
+      flex-flow: column wrap;
+     }
+     .Governor h2{
+      bottom: 5px;
+      font-size: 10px;
+      width: 90%;
+      background-color: #000094;
+      line-height: 10px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+    }
+
+
     .hero1{
       background-size: 120%;
       height: 40vh;
@@ -2201,6 +2336,26 @@ font-size: 12px;
     header img{
       display: none;
     }
+
+    .heroSpecial{
+      width: 100%;
+      height: 70vh;
+      flex-flow: column wrap;
+     }
+     .Governor h2{
+      bottom: 5px;
+      font-size: 10px;
+      width: 90%;
+      background-color: #000094;
+      line-height: 10px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+    }
+
+
     .hero1{
       background-size: 120%;
       height: 40vh;
@@ -2389,6 +2544,24 @@ font-size: 12px;
        height: 4vh;
        width: 80%;
      }
+     .heroSpecial{
+      width: 100%;
+      height: 60vh;
+      flex-flow: column wrap;
+     }
+     .Governor h2{
+      bottom: 5px;
+      font-size: 10px;
+      width: 90%;
+      background-color: #000094;
+      line-height: 10px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+    }
+
      
      
          .hero1{
@@ -2572,6 +2745,26 @@ header nav{
 }
 
 
+
+.heroSpecial{
+  margin-top: 2px;
+ flex-flow: column wrap;
+ white-space: wrap;
+ height: 60vh; 
+ margin-bottom: 20px;
+}
+.Governor h2{
+  font-size: 10px;
+  width: 90%;
+  background-color: #000094;
+  line-height: 10px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
     .hero1{
       background-size: 120%;
       height: 25vh;
@@ -2754,14 +2947,19 @@ width: 80%;
 .heroSpecial{
   margin-top: 2px;
  flex-flow: column wrap;
- height: 50vh;
- gap: 2px;
+ white-space: wrap;
+ height: 60vh; 
 }
 .Governor h2{
   font-size: 10px;
   width: 90%;
   background-color: #000094;
   line-height: 10px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 
