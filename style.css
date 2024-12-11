@@ -210,7 +210,7 @@ display: none;
   justify-content: center;
   flex-flow: row wrap;
   margin-top: 3vw;
-  gap: 2vw;
+  gap: 1vw;
   padding: 0 20px;
 }
 .BenueMap, .Governor{
@@ -2748,6 +2748,20 @@ gap: 1vw;
 .search input{
 height: 4vh;
 width: 80%;
+}
+
+
+.heroSpecial{
+  margin-top: 2px;
+ flex-flow: column wrap;
+ height: 50vh;
+ gap: 2px;
+}
+.Governor h2{
+  font-size: 10px;
+  width: 90%;
+  background-color: #000094;
+  line-height: 10px;
 }
 
 
