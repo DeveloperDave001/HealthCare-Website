@@ -202,6 +202,12 @@ and (-webkit-min-device-pixel-ratio: 1){
 
     min-height: 80vh;
   }
+  #bdicLogo{
+    display: flex;
+    position: absolute;
+    left: 20vw;
+    width: 15vw;
+  }
   
 }
 
@@ -216,6 +222,12 @@ and (-webkit-min-device-pixel-ratio: 1){
 and (-webkit-min-device-pixel-ratio: 1){
   #otherBtn{
     height: 15vw
+  }
+  #bdicLogo{
+    display: flex;
+    position: absolute;
+    left: 20vw;
+    width: 15vw;
   }
 }
 @media screen and (max-device-width: 360px) 
@@ -234,6 +246,12 @@ and (-webkit-min-device-pixel-ratio: 1){
     height: 70wh;
     font-size: 12px;
   }
+  #bdicLogo{
+    display: flex;
+    position: absolute;
+    left: 20vw;
+    width: 15vw;
+  }
 
 }
 
@@ -244,7 +262,12 @@ and (-webkit-min-device-pixel-ratio: 1){
   }
   .footer{
     height: 180vh;
-    border: red dashed;
+  }
+  #bdicLogo{
+    display: flex;
+    position: absolute;
+    left: 20vw;
+    width: 15vw;
   }
   
 }

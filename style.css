@@ -146,7 +146,7 @@ display: none;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 3vw;
+    gap: 1vw;
     
   }
   nav ul li{
@@ -591,7 +591,11 @@ display: none;
     -webkit-transition: var(--transitin);
     -o-transition: var(--transitin);
     transition: var(--transitin);
-   }
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
    .footerNav li a:hover,  .footerNav li a:focus{
     background-color: #fff;
     color: #000094;
@@ -3702,9 +3706,9 @@ display: flex;
 header nav{
   display: none;
 }
-header img{
+/* header img{
   display: none;
-}
+} */
 
 
 
