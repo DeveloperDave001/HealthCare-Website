@@ -309,6 +309,18 @@ display: none;
     -webkit-transition: var(--transitin);
     -o-transition: var(--transitin);
     transition: var(--transitin);
+    z-index: 1;
+  }
+  .cover{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 30px;
+    z-index: -1;
+    opacity: .5;
+
+
   }
 
 .hero1::after{
