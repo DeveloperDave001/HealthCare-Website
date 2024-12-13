@@ -256,6 +256,7 @@ display: none;
 
 .visionMission{
   width: 80%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2166,6 +2167,20 @@ font-size: 12px;
       -o-border-radius: 50px;
     }
 
+    .visionMission{
+      width: 95%;
+      height: 75vh;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    .visionMission img{
+      width: 92%;
+    }
+
+
 
     .hero1{
       background-size: 120%;
@@ -2378,6 +2393,19 @@ font-size: 12px;
       -o-border-radius: 50px;
     }
 
+    .visionMission{
+      width: 95%;
+      height: 70vh;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    .visionMission img{
+      width: 90%;
+    }
+
 
     .hero1{
       background-size: 120%;
@@ -2585,6 +2613,19 @@ font-size: 12px;
       -o-border-radius: 50px;
     }
 
+    .visionMission{
+      width: 95%;
+      height: 60vh;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    .visionMission img{
+      width: 90%;
+    }
+    
      
      
          .hero1{
@@ -2788,6 +2829,19 @@ header nav{
   -o-border-radius: 50px;
 }
 
+.visionMission{
+  width: 95%;
+  height: 60vh;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.visionMission img{
+  width: 95%;
+}
+
     .hero1{
       background-size: 120%;
       height: 25vh;
@@ -2983,6 +3037,19 @@ width: 80%;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+}
+
+.visionMission{
+  width: 95%;
+  height: 50vh;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.visionMission img{
+  width: 95%;
 }
 
 
