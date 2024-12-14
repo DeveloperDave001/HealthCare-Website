@@ -104,7 +104,48 @@
         </div>
     </div>
 
-    <div class="visionMission"><img src="Pics/Mission.jpg" alt=""></div>
+    <div class="visionMission"><img src="Pics/Mission.jpg" alt="">
+    <div class="content"></div>
+    </div>
+
+
+    <!-- SLIDER -->
+     <div class="container">
+        <div class="slider">
+
+            <div class="slides" style="--img:url(pics/smiley-man-with-stethoscope-front-view.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style="--img:url(pics/medium-shot-smiley-doctor-with-coat.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style="--img:url(pics/front-view-female-doctor-wearing-stethoscope.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style="--img:url(pics/smiley-man-with-stethoscope-front-view.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style="--img:url(pics/smiley-man-with-stethoscope-front-view.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style="--img:url(pics/smiley-man-with-stethoscope-front-view.jpg)">
+                <div class="content"></div>
+            </div>
+
+        </div>
+            <div class="buttons">
+                <span class="prev"></span>
+                <span class="next"></span>
+                
+            </div>
+
+
+     </div>
 
 
 
@@ -344,6 +385,21 @@
 
 
 
+<script>
+    let prev = document.querySelector('.next');
+    let next = document.querySelector('.prev');
+    let slider = document.querySelector('.slider');
 
+    prev.addEventListener('click', function(){
+       let slides = document.querySelectorAll('.slides');
+       slider.appendChild(slides[0]); 
+    })
+
+    next.addEventListener('click', function(){
+       let slides = document.querySelectorAll('.slides');
+       slider.prepend(slides[slides.length - 1]); 
+    })
+
+</script>
 </body>
 </html>
