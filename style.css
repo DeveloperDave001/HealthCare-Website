@@ -414,6 +414,15 @@ background-position: 50% 20%;
 
 /* Slider Responsiveness */
 
+@media (max-width:2000px){
+
+  .slider{
+    position: absolute;
+    inset:20px;
+  }
+}
+
+
 
 
 
