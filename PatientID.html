@@ -64,9 +64,52 @@
 
 
 
-        <div class="headingSection" id="patientIDheader">
+<!--         <div class="headingSection" id="patientIDheader">
             <h1 style="letter-spacing: 10px;">Patient Id Card</h1>
+        </div> -->
+
+
+
+             <!-- SLIDER -->
+     <div class="container">
+        <div class="slider">
+
+            <div class="slides" style="--img:url(Card1.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style="--img:url(Card12.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style="--img:url(Card1.jpg)">
+                <div class="content"></div>
+            </div>
+
+            <div class="slides" style= "--img:url(Card2.jpg)">
+                <div class="content"></div>
+            </div>
+
+<!--             <div class="slides" style="--img:url(6.jpg)">
+                <div class="content"></div>
+            </div> -->
+
+<!--             <div class="slides">
+                <div class="content" style="background: #fff;">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div> -->
+
         </div>
+            <div class="buttons">
+                <span class="prev"></span>
+                <span class="next"></span>
+                
+            </div>
+
+
+     </div>
 
         <div class="pageContent">
             <p> 
@@ -88,7 +131,7 @@
                   to failures or losses.
             </p>
             <a href="https://shorturl.at/M8Sta" target="blank">
-                <button  class="Learn" id="MobileBtn" style="width: 50vw; margin-top: 3vw;">Register Your Facility Now</button>
+                <button  class="Learn" id="MobileBtn" style="width: 50vw; margin-top: 3vw;">Get Card now</button>
 
             </a>
 
@@ -178,4 +221,21 @@
         </div>
         <div class="year" style="display: flex; align-items: center; justify-content: center; margin-top: 3vw; white-space: normal;"><p>Ⓒ 2024 Benue Digital Infrastructure Company PLC (BDIC) - All Rights Reserved.</p></div>
 
+
+        <script>
+            let prev = document.querySelector('.next');
+            let next = document.querySelector('.prev');
+            let slider = document.querySelector('.slider');
+        
+            prev.addEventListener('click', function(){
+               let slides = document.querySelectorAll('.slides');
+               slider.appendChild(slides[0]); 
+            })
+        
+            next.addEventListener('click', function(){
+               let slides = document.querySelectorAll('.slides');
+               slider.prepend(slides[slides.length - 1]); 
+            })
+        
+        </script>
     </body>
