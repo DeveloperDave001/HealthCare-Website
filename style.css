@@ -366,6 +366,16 @@ background-position: 50% 20%;
   background-size: cover;
   opacity: 0;
 }
+.slider .slides:nth-child(7){
+  left: calc(50% + 1280px);
+  background-size: cover;
+  opacity: 0;
+}
+.slider .slides:nth-child(8){
+  left: calc(50% + 1540px);
+  background-size: cover;
+  opacity: 0;
+}
 .buttons{
   position: absolute;
   bottom: 50px;
@@ -3461,7 +3471,7 @@ width: 15vw;
 
 /* LANDSCAPE */
 
-@media only screen 
+/* @media only screen 
 and (orientation: landscape) {
 
   body{
@@ -3507,7 +3517,7 @@ and (orientation: landscape) {
     height: 5vw;
   }
 
-}
+} */
 
 
 
