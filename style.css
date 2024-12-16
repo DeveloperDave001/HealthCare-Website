@@ -1599,6 +1599,8 @@ font-size: 12px;
 
 
 
+
+
     .MobileHeader{
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3022,6 +3024,10 @@ font-size: 12px;
   }
 
 
+ /*  orientation : landscape */
+
+
+
   @media only screen and (max-device-width: 380px) 
   and (-webkit-min-device-pixel-ratio: 1){
 
@@ -3437,6 +3443,10 @@ width: 15vw;
 }
 
 
+
+
+
+
 @supports (backdrop-filter(blur)) {
 .container {
   display: -ms-grid;
@@ -3447,6 +3457,56 @@ width: 15vw;
   padding: 10px;
 }
 }
+}
+
+/* LANDSCAPE */
+
+@media only screen 
+and (orientation: landscape) {
+
+  body{
+  }
+  header nav ul li a{
+    font-size: 8px;
+  }
+
+  .action{
+    height: 5vw;
+  }
+
+  .heroSpecial{
+    height: 200vh;
+  }
+
+  .container{
+    height: 160vh;
+  }
+
+  .buttons{
+    bottom: 170px;
+    right:200px;
+  }
+
+  .hero2{
+    margin-top: -90px;
+  }
+  .about-us{
+    height: 60vh;
+  }
+  #Con3{
+    height: 80vh;
+  }
+
+  #lattest{
+    height: 290vh;
+  }
+  .news{
+    height: 50vh;
+  }
+  #newsBtn{
+    height: 5vw;
+  }
+
 }
 
 
