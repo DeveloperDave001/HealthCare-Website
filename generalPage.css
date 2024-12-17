@@ -89,7 +89,7 @@ input, textarea{
   -webkit-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-  background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(Pics/BDIC.jpg);
+  background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(Pics/BIIHMIS.jpg);
   background-blend-mode: overlay;
   background-position: center;
   mix-blend-mode: multiply;
@@ -231,7 +231,7 @@ and (-webkit-min-device-pixel-ratio: 1){
 
     min-height: 80vh;
   }
-  #bdicLogo{
+  #BIIHMISLogo{
     display: flex;
     position: absolute;
     left: 20vw;
@@ -253,7 +253,7 @@ and (-webkit-min-device-pixel-ratio: 1){
   #otherBtn{
     height: 15vw
   }
-  #bdicLogo{
+  #BIIHMISLogo{
     display: flex;
     position: absolute;
     left: 20vw;
@@ -278,7 +278,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     height: 70wh;
     font-size: 12px;
   }
-  #bdicLogo{
+  #BIIHMISLogo{
     display: flex;
     position: absolute;
     left: 20vw;
@@ -295,7 +295,7 @@ and (-webkit-min-device-pixel-ratio: 1){
   .footer{
     height: 180vh;
   }
-  #bdicLogo{
+  #BIIHMISLogo{
     display: flex;
     position: absolute;
     left: 20vw;
