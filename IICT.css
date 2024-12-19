@@ -270,7 +270,6 @@ header nav ul li a:hover, header nav ul li a:focus,
 
   .hero1{
     height: 80vh;
-    border: #3a3a3a solid;
 
   }
   .sidebar{
@@ -301,7 +300,6 @@ header nav ul li a:hover, header nav ul li a:focus,
   }
 
 .MobileHeader{
-  z-index: 9999;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -313,6 +311,7 @@ header nav ul li a:hover, header nav ul li a:focus,
 
 }
 .navForMobile{
+  z-index: 2;
   display: none;
   align-items: center;
   justify-self: center;
@@ -403,7 +402,7 @@ header nav ul li a:hover, header nav ul li a:focus,
 .menu-icon, .menu-icon::before, .menu-icon::after{
   background-color:#202020;
   position: absolute;
-    width: 50px;
+    width: 30px;
     height: 3px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -466,6 +465,18 @@ header nav ul li a:hover, header nav ul li a:focus,
   display: flex;
   }
 
+  .hero1{
+  }
+  .sidebar{
+    width: 60%;
+  }
+  .sidebar li{
+    height: 10vw;
+  }
+  .sidebar li a{
+    font-size: 4vw;
+  }
+
 
 
 
@@ -487,5 +498,25 @@ header nav ul li a:hover, header nav ul li a:focus,
   top: 8px;
   right: 30px;
 }
+.hero1{
+  height: 80vh;
+}
+.sidebar{
+  width: 100%;
+  position: relative;
+}
+.sidebar li a:hover{
+  font-size: 17px;
+}
 
+
+}
+
+@media screen and (max-width:460px){
+.hero1{
+  height: 60vh;
+}
+.sidebar li{
+  height: 14vw;
+}
 }
