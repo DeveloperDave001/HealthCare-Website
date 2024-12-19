@@ -695,9 +695,7 @@ left: 0px;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
     margin-top: 5vw;
-    margin-bottom: .5vw;
-/*     border: red 2px solid;
- */  }
+  }
 
   .about-us{
     width: 95%;
