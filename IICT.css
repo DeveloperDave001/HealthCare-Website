@@ -145,14 +145,14 @@ header nav ul li a:hover, header nav ul li a:focus,
 
 
 .hero1{
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  background: url(Pics/medium-shot-smiley-doctor-with-coat.jpg);
+  background: url(IICT002.jpg);
   background-position: 60% 20%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -465,8 +465,6 @@ header nav ul li a:hover, header nav ul li a:focus,
   display: flex;
   }
 
-  .hero1{
-  }
   .sidebar{
     width: 60%;
   }
