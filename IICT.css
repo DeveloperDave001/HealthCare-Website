@@ -242,6 +242,10 @@ header nav ul li a:hover, header nav ul li a:focus,
   text-align: center;
  }
 
+ .MobilelogoBox{
+  display: none;
+ }
+
 
 /* Media Queries */
 @media screen and (max-width:1280px) {
