@@ -152,10 +152,7 @@ header nav ul li a:hover, header nav ul li a:focus,
   align-items: center;
   justify-content: center;
   position: relative;
-  background: url(IICT001.jpg);
-  background-position: 60% 20%;
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 .sidebar{
@@ -220,6 +217,21 @@ header nav ul li a:hover, header nav ul li a:focus,
  }
  .hero1:hover .sidebar li{
   background-color: var(--bg1);
+ }
+
+ #Jan31st{
+  background-color: var(--bg1);
+  height: 50vh;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+ #Jan31st h2{
+  color: var(--ft-color2);
+  font-size: 4vw;
+  text-align: center;
  }
 
 
