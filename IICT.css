@@ -166,7 +166,9 @@ header nav ul li a:hover, header nav ul li a:focus,
   align-items: center;
   justify-content: center;
   position: relative;
-
+background-image: linear-gradient(#3a3a3a44, #3a3a3a4d), url(IICT001.jpg);
+background-position: top;
+background-size: cover;
 }
 
 .sidebar{
