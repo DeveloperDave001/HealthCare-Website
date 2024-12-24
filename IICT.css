@@ -101,6 +101,12 @@ header nav .logo img{
   mix-blend-mode: multiply;
 }
 
+.logo:nth-child(3){
+  scale: 2;
+  mix-blend-mode: multiply;
+  padding: 0 2vw;
+}
+
 header nav ul{
   flex: 1;
   height: 100%;

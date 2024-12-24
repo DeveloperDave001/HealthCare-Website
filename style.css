@@ -856,6 +856,37 @@ left: 0px;
     height: 80%;
   pointer-events: none;
    }
+   .findUs{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: -6vw;
+    margin-top: 2vw;
+}
+.findUs h1{
+color: #000094;
+
+}
+
+   iframe{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 3vw;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
    .footer{
     background-color: #3a3a3a;
