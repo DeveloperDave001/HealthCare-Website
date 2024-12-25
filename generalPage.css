@@ -182,10 +182,17 @@ height: 80vh;
   background-color: #9f9fff;
 }
 
+
+
 .moreinfo p{
   color: #000000;
   font-weight: bolder;
   font-size: 16px 20px;
+}
+
+#MapPrimary{
+  margin-bottom: 3vw;
+  margin-top: -4vw;
 }
 
 
