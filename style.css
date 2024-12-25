@@ -3355,7 +3355,7 @@ width: 80%;
   }
 
   .heroSpecial{
-    height: 50vh;
+    height: 60vh;
   }
   .heading{
   }
@@ -3394,7 +3394,8 @@ width: 80%;
     margin: 0;
   }
   .visionMission{
-    height: 50vh;
+    border: #3a3a3a solid;
+    height: 70vh;
   }
 
 
