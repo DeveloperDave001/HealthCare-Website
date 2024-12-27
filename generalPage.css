@@ -196,15 +196,41 @@ height: 80vh;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  background-color: #9f9fff;
+  background-image: linear-gradient(30deg, #011031e5, #2600ff9c), url(IICT002.jpg);
+  background-position: center;
+  background-size: cover;
+
+  
 }
 
 
 
-.moreinfo p{
-  color: #000000;
+.moreinfo h1{
+  color: #ffffff;
   font-weight: bolder;
   font-size: 16px 20px;
+}
+.moreinfo a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1vw 3vw;
+  background-color: #2a006d;
+  margin: 1vw 0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  font-weight: 500;
+  transition: var(--transitin);
+  -webkit-transition: var(--transitin);
+  -moz-transition: var(--transitin);
+  -ms-transition: var(--transitin);
+  -o-transition: var(--transitin);
+}
+.moreinfo a:hover, .moreinfo a:focus{
+  background-color: #ffff;
+  color: #000094;
 }
 
 #MapPrimary{
