@@ -73,26 +73,42 @@ input, textarea{
 
 .headingSection{
   width: 100%;
-  height: 40vh;
-/*     border: #3a3a3a solid 3px;
-*/    display: -webkit-box;    display: -ms-flexbox;    display: flex;
+  height: 60vh;
+  /*border: #3a3a3a solid 3px;
+  */display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 30px;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #e8e8e8;
   border-radius: 20px;
   margin:auto auto;
   -webkit-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-  background-image: /* linear-gradient(30deg, #3a3a3a, #fff) */ url(Pics/BIIHMIS.jpg);
-  background-blend-mode: overlay;
-  background-position: center;
-  mix-blend-mode: multiply;
+  position: relative;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.headingSection img{
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 #IICTpage{
   width: 100%;
@@ -128,6 +144,7 @@ height: 80vh;
 }
 
 .headingSection h1{
+  z-index: 9;
   font-size: 6vw;
   color: var(--h1-color);
   text-align: center;
