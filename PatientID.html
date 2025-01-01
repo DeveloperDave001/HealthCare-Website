@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="Logos/webrelated6.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="generalPage.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 <body>
 
@@ -71,6 +72,31 @@
 
         <div class="pageContent">
             <h1 class="headforpages">BIIHMIS</h1>
+                    <!-- SLIDER SECTION -->
+         <section class="slider-box">
+            <div class="container">
+                <div class="slider">
+                    
+                    <div class="slides" style="--img: url(img1.jpg)"></div>
+        
+                    <div class="slides" style="--img: url(img2.jpg)"></div>
+        
+                    <div class="slides" style="--img: url(img3.jpg)"></div>
+        
+                    <div class="slides" style="--img: url(img4.jpg)"></div>
+        
+                    <div class="slides" style="--img: url(img5.jpg)"></div>
+        
+                    <div class="slides" style="--img: url(img6.jpg)"></div>
+        
+                </div>
+        
+                <div class="button">
+                    <span class="prev"></span>
+                    <span class="next"></span>
+                </div>
+            </div>
+         </section>
             <p> 
                 Benue Integrated Intelligence Health Management Information System Patient Card gives a patient the ability 
                 to quickly access care from any hospital 
@@ -110,17 +136,18 @@
 
         <div class="footer" style="margin-top: 5vw;">
             <div class="footerNav">
-                <li><a href="BDIC.html">BIIHMIS</a></li>
-                <li><a href="BSHIA.html">BSHIA</a></li> 
-                <li><a href="BSMOH.html">BSMOH</a></li> 
-                <li><a href="IICT.html">IICT</a></li>
-                <li><a href="BSHMB.html">BSHMB</a></li>
                 <li><a href="BSMOH.html">BSMOH</a></li>
+                <li><a href="BSHMB.html">BNSHMB</a></li>
+                <li><a href="BSPHB.html">BNSPHCB</a></li>
+                <li><a href="BSHIA.html">BSHIA</a></li> 
+                <li><a href="BDIC.html">BDIC</a></li>
+                <li><a href="IICT.html">IICT</a></li>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="About.html">ABOUT US</a></li>
                 <li><a href="Features.html">FEATURES</a></li>
                 <li><a href="Contact.html">CONTACT US</a></li>
-                <li><a href="IICTspecialPage.html">Go to App</a></li>
+                <li><a href="IICTspecialPage.html">GO TO APP</a></li>
+
             </div>
     
             <div class="footerBox">
@@ -161,20 +188,5 @@
         <div class="year" style="display: flex; align-items: center; justify-content: center; margin-top: 3vw; white-space: normal;"><p>Ⓒ 2024 Benue Digital Infrastructure Company PLC (BDIC) - All Rights Reserved.</p></div>
 
 
-        <script>
-            let prev = document.querySelector('.next');
-            let next = document.querySelector('.prev');
-            let slider = document.querySelector('.slider');
-        
-            prev.addEventListener('click', function(){
-               let slides = document.querySelectorAll('.slides');
-               slider.appendChild(slides[0]); 
-            })
-        
-            next.addEventListener('click', function(){
-               let slides = document.querySelectorAll('.slides');
-               slider.prepend(slides[slides.length - 1]); 
-            })
-        
-        </script>
+        <script src="style.js"></script>
     </body>
