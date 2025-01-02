@@ -289,10 +289,9 @@ and (-webkit-min-device-pixel-ratio: 1){
     mix-blend-mode: normal;
   }
   .headingSection h1{
-    display: none;
+    /* display: none; */
   }
   .moreinfo{
-
     min-height: 40vh;
   }
   #BIIHMISLogo{
