@@ -223,9 +223,19 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: #000094 solid;
 }
-
+.Governor{
+  position: relative;
+}
+.Governor h2{
+  position: absolute;
+  bottom: 3vw;
+  left: 0vw;
+  width: 100%;
+  text-align: center;
+  font-size: 2vw ;
+  color: #fff;
+}
 .BenueMap img, .Governor img{
   object-fit: cover;
   width: 100%;
@@ -236,6 +246,7 @@ display: none;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 
 
 .visionMission{
@@ -1223,7 +1234,7 @@ and (-webkit-min-device-pixel-ratio: 1){
       gap: 1vw;
       padding: 0 20px;
     }
-    -o-border-radius: 30px;
+    
 }
 
 
@@ -1281,7 +1292,7 @@ font-size: 12px;
 .footerContent p{
   font-size: 12px;
 }
-  }
+  
 
 @media only screen 
   and (width<= 840px) 
@@ -1627,7 +1638,6 @@ font-size: 12px;
 
     .headforpages{
       font-size: 5vw;
-      border: #000094 solid;
     }
   
 
@@ -1661,7 +1671,6 @@ font-size: 12px;
     margin-top: 0;
     height: 120vh;
     width: 100%;
-    border: #000094 solid;
   }
 
   .hero1{
