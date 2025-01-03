@@ -209,6 +209,7 @@ display: none;
   -moz-border-radius:2vw;
   -ms-border-radius:2vw;
   -o-border-radius:2vw;
+  text-align: center;
 }
 .moreinfo a{
   text-decoration: none;
@@ -227,6 +228,7 @@ display: none;
   -moz-transition: var(--transitin);
   -ms-transition: var(--transitin);
   -o-transition: var(--transitin);
+  text-align: center;
 }
 .moreinfo a:hover, .moreinfo a:focus{
   background-color: #ffff;
