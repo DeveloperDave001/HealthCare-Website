@@ -210,7 +210,6 @@ display: none;
   -ms-border-radius:2vw;
   -o-border-radius:2vw;
   text-align: center;
-  border: #000094 solid;
 }
 .moreinfo a{
   text-decoration: none;
@@ -230,7 +229,6 @@ display: none;
   -ms-transition: var(--transitin);
   -o-transition: var(--transitin);
   text-align: center;
-  border: #000094 solid;
 }
 .moreinfo a:hover, .moreinfo a:focus{
   background-color: #ffff;
@@ -285,6 +283,12 @@ and (-webkit-min-device-pixel-ratio: 1){
 
   .moreinfo{
     min-height: 40vh;
+  }
+  .moreinfo h1{
+    text-align: center;
+  }
+  .moreinfo a{
+    text-align: center;
   }
   #BIIHMISLogo{
     display: flex;
