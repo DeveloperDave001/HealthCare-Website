@@ -74,8 +74,7 @@ input, textarea{
 .headingSection{
   width: 100%;
   height: 60vh;
-  /*border: #3a3a3a solid 3px;
-  */display: -webkit-box;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
@@ -113,8 +112,7 @@ input, textarea{
 #IICTpage{
   width: 100%;
   height: 100vh;
-/*     border: #3a3a3a solid 3px;
-*/    display: -webkit-box;    display: -ms-flexbox;    display: flex;
+  display: -webkit-box;    display: -ms-flexbox;    display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -251,8 +249,7 @@ height: 80vh;
 
 #patientIDheader{
 
-/*     border: #3a3a3a solid 3px;
-*/    display: -webkit-box;    display: -ms-flexbox;    display: flex;
+  display: -webkit-box;    display: -ms-flexbox;    display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -288,9 +285,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     background-color: transparent;
     mix-blend-mode: normal;
   }
-  .headingSection h1{
-    /* display: none; */
-  }
+
   .moreinfo{
     min-height: 40vh;
   }
