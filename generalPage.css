@@ -109,6 +109,9 @@ input, textarea{
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+.headingSection h1{
+  display: none;
+}
 #IICTpage{
   width: 100%;
   height: 100vh;
@@ -142,16 +145,7 @@ height: 80vh;
 }
 
 .headingSection h1{
-  z-index: 9;
-  font-size: 6vw;
-  color: var(--h1-color);
-  text-align: center;
-  -webkit-text-stroke: #000094 1.5px;
-  -webkit-text-fill-color: transparent;
-
-}
-.headingSection:hover, .headingSection:focus ~ .headingSection h1{
-  background-color: #b4b4b4;
+display: none;
 }
 .pageContent{
   width: 90%;
