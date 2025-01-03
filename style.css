@@ -42,6 +42,7 @@ display: flex;
 -webkit-box-align: center;
 -ms-flex-align: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 *{
@@ -1414,6 +1415,7 @@ font-size: 12px;
       overflow-x: hidden;
       position: relative;
       margin-top: 6vw;
+      overflow-x: hidden;
     }
 
     header nav{
@@ -2765,7 +2767,7 @@ header nav{
 
 
 .visionMission{
-height: 50vh;
+height: 60vh;
 padding: 0;
 margin: 0;
 }
@@ -2997,7 +2999,7 @@ width: 80%;
     margin: 0;
   }
   .visionMission{
-    height: 55vh;
+    height: 65vh;
     margin-bottom: -15vw;
   }
 
