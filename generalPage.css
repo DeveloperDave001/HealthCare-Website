@@ -96,7 +96,6 @@ input, textarea{
   -o-border-radius: 20px;
 }
 .headingSection img{
-  opacity: .5;
   position: absolute;
   top: 0;
   left: 0;
@@ -339,8 +338,12 @@ and (-webkit-min-device-pixel-ratio: 1){
   .moreinfo{
     height: 30vh;
   }
+  .moreinfo h1{
+    font-size: 5vw;
+  }
   .moreinfo a{
     margin-top: 4vw;
+    font-size: 4.5vw;
   }
 
 }

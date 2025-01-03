@@ -1233,10 +1233,6 @@ and (-webkit-min-device-pixel-ratio: 1){
       padding: 0 20px;
     }
     
-}
-
-
-
     .about-us{
       position: relative;
       height: 30vh;
@@ -1290,7 +1286,7 @@ font-size: 12px;
 .footerContent p{
   font-size: 12px;
 }
-  
+}
 
 @media only screen 
   and (width<= 840px) 
@@ -3002,6 +2998,7 @@ width: 80%;
     height: 65vh;
     margin-bottom: -15vw;
   }
+
 
 
 
