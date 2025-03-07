@@ -55,26 +55,28 @@ input, textarea{
 :root {
     /* Header Variables */
     --h1-font-size: 2.5rem; 
-    --h1-color: #000094;
+    --h1-color: #046400;
     --nav-font:.95rem;
     --nav-fontW: bolder;
     --text-color:#ffffff;
     --text-size: 1rem;
     --white-bg:#ffffff;
-    --blue-bg:#000094;
+    --blue-bg:#128803;
   
     --h2-font-size: 2rem; 
     --h2-color: #555555;
   
     /* Background Color */
     --bg-color: #e8e8e8; 
-    --bg-color2: #000094; 
+    --bg-color2: #005e00; 
     /* Button Color */
     --btn-color: #ffffff; 
-    --btn-border: #000094 solid 1.5px;
+    --btn-border: #177200 solid 1.5px;
     --btn-padding:.5vw 1vw;
     --border-r:30px;
     --transitin:.5s ease;
+    --simpleColor:#186600;
+    --text_bg:#1b8d04ad;
   }
 
 
@@ -155,6 +157,7 @@ display: none;
     list-style: none;
   }
   nav ul li a{
+    color: var(--h1-color);
     background-color: #ffffff;
     border-radius: var(--border-r);
     font-size: var(--nav-font);
@@ -166,7 +169,7 @@ display: none;
     transition: var(--transitin);
   }
   nav a:hover, nav a:focus{
-    background-color: #000094;
+    background-color: var(--simpleColor);
     color: var(--btn-color);
     border-radius: var(--border-r);
   }
@@ -184,8 +187,11 @@ display: none;
       margin-bottom: 3vw;
 
     }
+    .changecolor{
+      opacity: .6;
+    }
     .search p{
-      color: #000094;
+      color: var(--simpleColor);
       font-weight: bold;
     }
     .search input{
@@ -199,7 +205,7 @@ display: none;
       -moz-border-radius: 20px;
       -ms-border-radius: 20px;
       -o-border-radius: 20px;
-      border: #000094 solid 1.5px;
+      border: var(--simpleColor) solid 1.5px;
 }
 
 
@@ -361,7 +367,7 @@ gap: 1vw;
     font-weight: bold;
     font-size: 1.4vw;
     padding: 1vw 1vw ;
-    background-color: #3636e4;
+    background-color: var(--text_bg);
     text-align: center;
     letter-spacing: .2vw;
   }
@@ -586,7 +592,7 @@ gap: 1vw;
    .newsHead{
     font-weight: bolder;
     text-decoration: underline;
-    color: #000094;
+    color: var(--simpleColor);
    }
 
    .news:hover, .news:focus{
@@ -627,23 +633,21 @@ gap: 1vw;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    margin-bottom: -6vw;
-    margin-top: 2vw;
 }
 .findUs h1{
-color: #000094;
+color: var(--simpleColor);
 text-align: center;
 }
 
    iframe{
     width: 100%;
     height: 80vh;
-    margin-bottom: 3vw;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    ;
 }
 
    .footer{
@@ -699,7 +703,7 @@ text-align: center;
 }
    .footerNav li a:hover,  .footerNav li a:focus{
     background-color: #fff;
-    color: #000094;
+    color: var(--simpleColor);
     font-weight: bolder;
    }
 
@@ -753,10 +757,6 @@ text-align: center;
 
  @media screen and (width<= 2000px) 
  and (-webkit-min-device-pixel-ratio: 1) { 
-
-
-
-
  
   .hero2{
     margin-top: 2vw;
@@ -1262,7 +1262,7 @@ visibility: hidden;
 }
 .headtextformobile{
   visibility: visible;
-  color: #000094;
+  color: var(--simpleColor);
   font-size: 3vw;
   font-weight: bold;
 }
@@ -1318,7 +1318,7 @@ visibility: hidden;
 }
 .headtextformobile{
   visibility: visible;
-  color: #000094;
+  color: var(--simpleColor);
   font-size: 3vw;
   font-weight: bold;
 }
@@ -1377,7 +1377,7 @@ visibility: hidden;
 }
 .headtextformobile{
   visibility: visible;
-  color: #000094;
+  color: var(--simpleColor);
   font-size: 3vw;
   font-weight: bold;
 }
@@ -1477,7 +1477,7 @@ font-size: 12px;
     }
     
     .menu-icon, .menu-icon::before, .menu-icon::after{
-      background-color:#000094;
+      background-color:var(--simpleColor);
       position: absolute;
         width: 25px;
         height: 2px;
@@ -1612,7 +1612,7 @@ font-size: 12px;
     .navForMobile a{
       text-decoration: none;
       padding: 2vw 6vw;
-      background-color: #000094;
+      background-color: var(--simpleColor);
       margin-bottom: 3vw;
        border-radius: 20px;
       color: #fff;
@@ -1733,7 +1733,7 @@ font-size: 12px;
       height: 200vh;
     }
     .lattestNews h1{
-      color: #000094;
+      color: var(--simpleColor);
       text-align: center;
     }
     #newsBtn{
@@ -1869,7 +1869,7 @@ font-size: 12px;
       height: 250vh;
     }
     .lattestNews h1{
-      color: #000094;
+      color: var(--simpleColor);
       text-align: center;
     }
     .news{
@@ -2053,7 +2053,7 @@ font-size: 12px;
       height: 235vh;
     }
     .lattestNews h1{
-      color: #000094;
+      color: var(--simpleColor);
       text-align: center;
     }
     .news{
@@ -2280,13 +2280,13 @@ font-size: 12px;
       .registerPageForMobile h2{
         text-align: center;
         line-height: 30px;
-        color: #000094;
+        color: var(--simpleColor);
         background-color: #e8e8e8;
         padding: 2.5vw;
       }
 
       .registerYourFacility{
-        background-color: #000094;
+        background-color: var(--simpleColor);
         padding: 2vw 5vw;
         border-radius: 5vw;
         border: none;
@@ -2482,13 +2482,13 @@ font-size: 12px;
       .registerPageForMobile h2{
         text-align: center;
         line-height: 30px;
-        color: #000094;
+        color: var(--simpleColor);
         background-color: #e8e8e8;
         padding: 2.5vw;
       }
 
       .registerYourFacility{
-        background-color: #000094;
+        background-color: var(--simpleColor);
         padding: 2vw 5vw;
         border-radius: 5vw;
         border: none;
@@ -2672,13 +2672,13 @@ font-size: 12px;
            .registerPageForMobile h2{
              text-align: center;
              line-height: 30px;
-             color: #000094;
+             color: var(--simpleColor);
              background-color: #e8e8e8;
              padding: 2.5vw;
            }
      
            .registerYourFacility{
-             background-color: #000094;
+             background-color: var(--simpleColor);
              padding: 2vw 5vw;
              border-radius: 5vw;
              border: none;
@@ -2873,13 +2873,13 @@ margin: 0;
       .registerPageForMobile h2{
         text-align: center;
         line-height: 30px;
-        color: #000094;
+        color: var(--simpleColor);
         background-color: #e8e8e8;
         padding: 2.5vw;
       }
 
       .registerYourFacility{
-        background-color: #000094;
+        background-color: var(--simpleColor);
         padding: 2vw 5vw;
         border-radius: 5vw;
         border: none;
@@ -3063,13 +3063,13 @@ margin-bottom: 3vw;
     .registerPageForMobile h2{
       text-align: center;
       line-height: 30px;
-      color: #000094;
+      color: var(--simpleColor);
       background-color: #e8e8e8;
       padding: 2.5vw;
     }
 
     .registerYourFacility{
-      background-color: #000094;
+      background-color: var(--simpleColor);
       padding: 2vw 5vw;
       border-radius: 5vw;
       border: none;
