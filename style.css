@@ -77,6 +77,8 @@ input, textarea{
     --transitin:.5s ease;
     --simpleColor:#186600;
     --text_bg:#1b8d04ad;
+    --bg_fade:#2d9b17;
+    --bg_fade2:#519145;
   }
 
 
@@ -276,9 +278,9 @@ gap: 1vw;
     width: 100%;
     height: 100vh;
     background-color: var(--bg-color);
-    background-image: url(Pics/Hero1\ Hearder1.jpg);
+    background-image: url(header_pics.jpg);
     background-position: center;
-    background-size: 160%;
+    background-size: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -304,7 +306,7 @@ gap: 1vw;
   .cover{
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-image:linear-gradient(90deg, var(--bg_fade), #ffffff93);
     position: absolute;
     border-radius: 30px;
     z-index: -1;
@@ -651,7 +653,7 @@ text-align: center;
 }
 
    .footer{
-    background-color: #3a3a3a;
+    background-color: var(--bg_fade2);
     width: 100%;
     height: 60vh;
     display: -webkit-box;
