@@ -31,20 +31,20 @@ input, textarea{
 :root {
     /* Header Variables */
     --h1-font-size: 2.5rem; 
-    --ft-color: #3a3a3a;
+    --ft-color: #046400;
     --nav-font:.95rem;
     --nav-fontW: bolder;
     --ft-color2:#ffffff;
     --text-size: 1rem;
     --white-bg:#ffffff;
-    --bg1:#3a3a3a;
+    --bg1:#046400;
     --bg3:#111111;
   
     --h2-font-size: 2rem; 
     --h2-color: #555555;
   
     /* Background Color */
-    --bg2: #7c7c7c; 
+    --bg2: #004600; 
     --bg-color2: #000094; 
     /* Button Color */
     --btn-color: #ffffff; 
@@ -119,7 +119,7 @@ header nav ul li{
 }
 header nav ul li a{
   color: var(--ft-color2);
-  background-color: var(bg2);
+  background-color: var(--bg2);
   padding: 2px 40px;
   text-decoration: none;
   background-color: var(--bg2);
@@ -166,7 +166,7 @@ header nav ul li a:hover, header nav ul li a:focus,
   align-items: center;
   justify-content: center;
   position: relative;
-background-image: linear-gradient(30deg, #011031e5, #2600ff9c), url(IICT002.jpg);
+background-image: linear-gradient(30deg, #03a025e5, #046400), url(IICT002.jpg);
 background-position: top;
 background-size: cover;
 }
@@ -174,7 +174,7 @@ background-size: cover;
 .sidebar{
   width: 60%;
   height: 100%;
-  background-color: #cacaca31;
+  background-color: #037e3659;
   position: absolute;
   left: 0;
   top: 0;
@@ -229,7 +229,7 @@ background-size: cover;
  }
 
  .hero1:hover .sidebar{
-  background-color: #4b4b4b31;
+  background-color: #00ec4f31;
  }
  .hero1:hover .sidebar li{
   background-color: var(--bg1);
