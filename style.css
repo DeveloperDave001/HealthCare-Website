@@ -186,7 +186,6 @@ display: none;
       flex-flow: row wrap;
 /*       flex-shrink: 50% 20%;
  */      margin-bottom: 3vw;
-      border: red dashed;
     }
     
     .changecolor{
