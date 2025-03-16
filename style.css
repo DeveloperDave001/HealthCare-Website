@@ -179,23 +179,23 @@ display: none;
 
     .search{
       width: 50%;
-      height: 10vh;
+      height: 13vh;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-flow: row wrap;
-      flex-shrink: 50% 20%;
-      gap: 1vw;
-      margin-bottom: 3vw;
-
+/*       flex-shrink: 50% 20%;
+ */      margin-bottom: 3vw;
+      border: red dashed;
     }
+    
     .changecolor{
       opacity: .6;
     }
-    .search p{
+ /*    .search a{
       color: var(--simpleColor);
       font-weight: bold;
-    }
+    } */
     .search input{
       width: 70%;
       height: 80%;

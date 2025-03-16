@@ -211,7 +211,7 @@ display: none;
   -o-border-radius:2vw;
   text-align: center;
 }
-.moreinfo a{
+.moreinfo a, .moreinfo_btn{
   text-decoration: none;
   color: #fff;
   padding: 1vw 3vw;
@@ -230,7 +230,7 @@ display: none;
   -o-transition: var(--transitin);
   text-align: center;
 }
-.moreinfo a:hover, .moreinfo a:focus{
+.moreinfo a:hover, .moreinfo a:focus, .moreinfo_btn:hover, .moreinfo_btn:focus{
   background-color: #ffff;
   color: var(--simpleColor);
 }
