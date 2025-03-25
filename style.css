@@ -210,68 +210,38 @@ display: none;
 }
 
 
-.heroSpecial{
+.heroSpecial {
+  margin-top: 40px;
   width: 100%;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-  margin-top: 3vw;
-  gap: 1vw;
+  height: 120vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 10px; /* Gap between grid items */
+  border-radius: 10px; /* Border radius */
 }
-.BenueMap, .Governor{
-  flex: 1;
-  height: 90%;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.grid-item {
+  background-color: #4CAF50;
+  color: white; /* Text color */
+  display: flex; /* Center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100%; /* Fixed height for grid items */
+  border-radius: 10px; 
+  overflow: hidden; 
 }
-.Governor{
-  position: relative;
-}
-.Governor h2{
-  position: absolute;
-  bottom: 3vw;
-  left: 0vw;
+.grid-item img {
   width: 100%;
-  text-align: center;
-  font-size: 2vw ;
-  color: #fff;
-}
-.BenueMap img, .Governor img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  height: 100%; 
+  object-fit: cover; 
 }
 
 
 
-.visionMission{
-width: 100%;
-height: 100v;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 2vw;
-margin-bottom: -2vw;
-gap: 1vw;
-}
 
-.visionMission img{
-  width: 50%;
-  object-fit: cover;
-}
+
+
 
   .hero1{
     width: 100%;
@@ -1179,14 +1149,8 @@ and (-webkit-min-device-pixel-ratio: 1){
     #Con3{
       height: 50vh;
     }
-    .visionMission{
-      flex-flow: column wrap;
-      height: 130vh;
-      margin-bottom: 0;
-      padding: 0;
-    }
-    .visionMission img{
-      width: 90%;
+    .heroSpecial{
+      height: 200vh;
     }
     .footer{
       height: 55vh;
@@ -1194,10 +1158,11 @@ and (-webkit-min-device-pixel-ratio: 1){
   }
 
 @media only screen  
-  and (width<= 885px) 
-  and (-webkit-min-device-pixel-ratio: 1){
+  and (width<= 885px){
 
-    
+    .heroSpecial{
+      height: 200vh;
+    }
     #newsBtn{
       height: 3vw;
       margin-top: 3vw;
@@ -1222,17 +1187,7 @@ and (-webkit-min-device-pixel-ratio: 1){
   and (width<= 880px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    .heroSpecial{
-      width: 100%;
-      height: 160vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-flow: column wrap;
-      margin-top: 3vw;
-      gap: 1vw;
-      padding: 0 20px;
-    }
+ 
     
     .about-us{
       position: relative;
@@ -1658,16 +1613,9 @@ font-size: 12px;
    }
    
 
-   .heroSpecial{
-    width: 100%;
-    height: 140vh;
-    flex-flow: column wrap;
-   }
-  .visionMission{
-    margin-top: 0;
-    height: 120vh;
-    width: 100%;
-  }
+   .heroSpecial {
+    grid-template-columns: repeat(2, 1fr); 
+}
 
   .hero1{
     height: 60vw;
@@ -2122,8 +2070,7 @@ font-size: 12px;
   }
 
 
-  @media only screen and (width<= 480px) 
-  and (-webkit-min-device-pixel-ratio: 1){
+  @media only screen and (width<= 480px){
     body{
    
       overflow-x: hidden;
@@ -2160,15 +2107,10 @@ font-size: 12px;
       display: none;
     }
 
-    .heroSpecial{
-      width: 100%;
-      height: 120vh;
-      flex-flow: column wrap;
-     }
-
-    .visionMission{
-      height: 65vh;
-    }
+    .heroSpecial {
+      grid-template-columns: 1fr;
+      height: 220vh;
+  }
 
 
 
