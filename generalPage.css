@@ -238,6 +238,7 @@ display: none;
 
 .newContacts_btns p{
   color: var(--h2-color);
+  text-align: center;
 }
 .newContacts_btns span a{
   color: var(--h1-color);
@@ -348,11 +349,55 @@ display: none;
   height: 100vh;
 }
 }
+
+@media screen and (width<= 885px) {
+  .newContacts_buttons a{
+    text-align: left;
+    width: 90%;
+  }
+}
+
+
 @media screen and (width<= 800px) {
 .moreinfo{
   height: 70vh;
 }
+
+.newContacts_img{
+  flex: 1;
+  height: 80%;
 }
+.newContacts_buttons a{
+  text-align: left;
+  width: 90%;
+}
+}
+
+@media screen and (width<= 640px) {
+  .newContacts{
+    flex-flow: column;
+    height: 165vh;
+  }
+  .newContacts_img img{
+    height: 100%;
+  }
+  .newContacts_btns{
+    order: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .newContacts_btns_img{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0vw 0vw;
+  }
+
+  .newContacts_buttons a{
+text-align: center;
+  }
+} 
+
 @media screen and (width<= 600px) {
 .moreinfo{
   height: 60vh;
@@ -384,19 +429,43 @@ and (-webkit-min-device-pixel-ratio: 1){
     left: 20vw;
     width: 15vw;
   }
+  
 
   
 }
 
 
-@media screen and (width<= 560px) 
-and (-webkit-min-device-pixel-ratio: 1){
+@media screen and (width<= 560px) {
+
+  .newContacts{
+    height: 155vh;
+  }
   #otherBtn{
     height: 15vw
   }
 }
-@media screen and (width<= 400px) 
-and (-webkit-min-device-pixel-ratio: 1){
+
+@media screen and (width<= 500px) {
+
+  .newContacts{
+    height: 140vh;
+  }
+  .newContacts_btns p{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (width<= 460px) {
+  .newContacts{
+    height: 130vh;
+  }
+}
+
+@media screen and (width<= 400px) {
+  .newContacts{
+    height: 122vh;
+  }
   #otherBtn{
     height: 15vw
   }
