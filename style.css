@@ -989,12 +989,19 @@ text-align: center;
 }
 
 @media screen and (width<= 1380px){
+  .front2{
+    height: 100vh;
+    padding: 2vw;
+  }
+  .header_front2{
+    margin-top: 0vw;
+  }
 
   .class1 h1{
   font-size: 16px;
   }
   .class1 p{
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .about-us{
