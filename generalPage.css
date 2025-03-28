@@ -1,19 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
@@ -178,6 +162,88 @@ display: none;
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
+}
+
+/* New Contacts */
+.newContacts{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+.newContacts_btns{
+  flex: 1;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 2vw;
+  align-items: start;
+  flex-flow: column;
+
+}
+.newContacts_img{
+  flex: 1;
+  height: 100%;
+}
+.newContacts_img img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
+.newContacts_btns_img{
+  width: 90%;
+}
+.newContacts_btns_img img{
+  width: 40%;
+  margin-bottom: 2vw;
+}
+.newContacts_buttons{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  justify-content: center;
+}
+.newContacts_buttons a{
+  text-decoration: none;
+  color: var(--h1-color);
+  background-color: transparent;
+  padding: .5vw .8vw;
+  border: var(--h1-color) solid 1px;
+  margin: .3vw 0vw;
+  width: 60%;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  -ms-transition: .3s all;
+  -o-transition: .3s all;
+  text-align: center;
+}
+.newContacts_buttons a:hover, .newContacts_buttons a:focus{
+  background-color: var(--bg-color2);
+  color: var(--bg-color);
+}
+.newContacts_btns h1{
+  color: var(--h1-color);
+}
+
+.newContacts_btns p{
+  color: var(--h2-color);
+}
+.newContacts_btns span a{
+  color: var(--h1-color);
+}
+.newContacts_btns span a:hover, .newContacts_btns span a:focus{
+  color: var(--h2-color);
 }
 
 .moreinfo{

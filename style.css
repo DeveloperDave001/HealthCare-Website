@@ -1449,8 +1449,7 @@ font-size: 12px;
 .classification-table{
   flex-flow: column;
 }
-.class1{
-}
+
 .class1 h1{
   font-size: 22px;
   }
@@ -3335,7 +3334,7 @@ width: 15vw;
   padding: 10px;
 }
 }
-}
+
 
 /* LANDSCAPE */
 
@@ -3385,7 +3384,7 @@ and (orientation: landscape) {
     height: 5vw;
   }
 
-} */
+}
 
 
 
