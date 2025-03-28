@@ -265,13 +265,15 @@ display: none;
   content: "";
   width: 100%;
   height: 100%;
-   background-color: #7676ff;
-   position: absolute;
+  background-color: #7676ff;
+  position: absolute;
   border-radius: 30px;
   opacity: 0;
   -webkit-transition: var(--transitin);
   -o-transition: var(--transitin);
   transition: var(--transitin);
+  -moz-transition: var(--transitin);
+  -ms-transition: var(--transitin);
 } */
 
 
@@ -337,6 +339,9 @@ display: none;
 .front1_btn2:hover, .front1_btn2:focus{
   font-size: 15px;
 }
+.sec2{
+  padding: 0;
+}
 .sec2 img{
   width: 70%;
 }
@@ -348,7 +353,7 @@ display: none;
 /* New Header Page2 */
 .front2{
   width: 100%;
-  height: 90vh;
+  height: 130vh;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -375,8 +380,8 @@ display: none;
   color: #128803;
 }
 .classification-table{
-  width: 80%;
-  height: 70%;
+  width: 95%;
+  height: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -406,6 +411,7 @@ display: none;
 }
 .class1 p{
   color: #797979;
+  font-size: 14px;
 }
 
 .img_class1{
@@ -866,8 +872,8 @@ text-align: center;
  /* LAPTOP */
 
 
- @media screen and (width<= 2000px) 
- and (-webkit-min-device-pixel-ratio: 1) { 
+ @media screen and (width<= 2000px){ 
+
  
   .hero2{
     margin-top: 2vw;
@@ -918,9 +924,13 @@ text-align: center;
 }
 
 
-@media screen and (width<= 1768px) 
- and (-webkit-min-device-pixel-ratio: 1){
-
+@media screen and (width<= 1768px) {
+.class1 p{
+  font-size: 20px;
+}
+.class1 h1{
+  font-size: 22px;
+}
  }
 
  @media screen and (width<= 1600px) 
@@ -978,8 +988,14 @@ text-align: center;
 
 }
 
-@media screen and (width<= 1380px) 
-and (-webkit-min-device-pixel-ratio: 1){
+@media screen and (width<= 1380px){
+
+  .class1 h1{
+  font-size: 16px;
+  }
+  .class1 p{
+    font-size: 15px;
+  }
 
   .about-us{
   height: 35vh;
@@ -1151,6 +1167,18 @@ and (-webkit-min-device-pixel-ratio: 1){
       height: 3vw;
       margin-top: 3vw;
     }
+    .btns{
+      width: 100%;
+    }
+    .front1_btn{
+      width: 200px;
+    }
+    .class1 h1{
+      font-size: 16px;
+      }
+      .class1 p{
+        font-size: 14px;
+      }
 
   }
 
@@ -1179,6 +1207,11 @@ and (-webkit-min-device-pixel-ratio: 1){
       font-size: 10px;
       background-color: #d8d8d8c9;
    }
+
+
+  .sec2 img{
+    width: 100%;
+  }
 
 
    
@@ -1292,13 +1325,30 @@ and (-webkit-min-device-pixel-ratio: 1){
     .heroSpecial{
       height: 200vh;
     }
+    .class1 h1{
+      font-size: 16px;
+      }
+      .class1 p{
+        font-size: 15px;
+      }
     .footer{
       height: 55vh;
     }
+ 
   }
 
 @media only screen  
   and (width<= 885px){
+
+    .front2{
+      height: 90vh;
+    }
+    .class1 h1{
+      font-size: 14px;
+      }
+      .class1 p{
+        font-size: 12px;
+      }
 
     .heroSpecial{
       height: 200vh;
@@ -1385,10 +1435,21 @@ font-size: 12px;
 }
 
 @media only screen 
-  and (width<= 840px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-
+  and (width<= 840px)  {
+.front2{
+  height: 300vh;
+}
+.classification-table{
+  flex-flow: column;
+}
+.class1{
+}
+.class1 h1{
+  font-size: 22px;
+  }
+  .class1 p{
+    font-size: 20px;
+  }
     .about-us{
       position: relative;
       height: 35vh;
@@ -1501,13 +1562,15 @@ font-size: 12px;
 
 
   
-  @media only screen and (width<= 768px) 
-  and (-webkit-min-device-pixel-ratio: 1){
+  @media only screen and (width<= 768px) {
     body{
       overflow-x: hidden;
       position: relative;
       margin-top: 6vw;
       overflow-x: hidden;
+    }
+    .front2{
+      height: 290vh;
     }
 
     header nav{
@@ -1515,6 +1578,31 @@ font-size: 12px;
     }
     header img{
       display: none;
+    }
+
+    .front1{
+      height: 90vh;
+      flex-flow: column;
+    }
+    .sec1{
+      order: 1;
+    }
+    .btns{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .front1_btn{
+      font-size: 20px;
+      text-align: center;
+      padding: 2vw 4vw;
+    }
+    .front1_btn2{
+      font-size: 20px;
+      text-align: center;
+    }
+    .sec2 img{
+      width: 70%;
     }
 
 
@@ -1858,6 +1946,19 @@ font-size: 12px;
     header img{
       display: none;
     }
+    .front2{
+      height: 290vh;
+    }
+    .classification-table{
+      gap: 5vw;
+    }
+    .class1{
+      height: 100%;
+    }
+    .header_front2{
+      font-size: 5vw;
+      line-height: 5.5vw;
+    }
 
     .stateLogo{
      display: flex;
@@ -2046,6 +2147,18 @@ font-size: 12px;
     header img{
       display: none;
     }
+    .front1{
+      height: 80vh;
+    }
+    .front2{
+      height: 260vh;
+    }
+    .class1 h1{
+      font-size: 20px;
+    }
+    .class1 p{
+      font-size: 18px;
+    }
 
     .stateLogo{
      display: flex;
@@ -2207,6 +2320,9 @@ font-size: 12px;
     #Con3{
       height: 70vh;
     }
+    .front2{
+      height: 250vh;
+    }
   }
 
 
@@ -2225,6 +2341,21 @@ font-size: 12px;
      header img{
        display: none;
      }
+
+     .front1{
+      height: 70vh;
+    }
+    .front2{
+      height: 230vh;
+      margin-top: 30px;
+
+    }
+    .class1 h1{
+      font-size: 16px;
+    }
+    .class1 p{
+      font-size: 16px;
+    }
 
      .stateLogo{
       display: flex;
@@ -2421,7 +2552,13 @@ font-size: 12px;
      header img{
        display: none;
      }
-
+.class1 h1{
+  font-size: 15px;
+}
+     .stateLogo{
+.class1 p{
+  font-size: 15px;
+}
      .stateLogo{
       display: flex;
       position: absolute;
