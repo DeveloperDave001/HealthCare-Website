@@ -489,7 +489,7 @@ and (-webkit-min-device-pixel-ratio: 1){
 @media screen and (width<= 500px) {
 
   .newContacts{
-    height: 140vh;
+    height: 150vh;
   }
   .newContacts_btns p{
     font-size: 14px;
@@ -503,13 +503,13 @@ and (-webkit-min-device-pixel-ratio: 1){
 
 @media screen and (width<= 460px) {
   .newContacts{
-    height: 130vh;
+    height: 140vh;
   }
 }
 
 @media screen and (width<= 400px) {
   .newContacts{
-    height: 122vh;
+    height: 130vh;
   }
   #otherBtn{
     height: 15vw
