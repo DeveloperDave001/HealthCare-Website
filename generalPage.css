@@ -201,13 +201,52 @@ display: none;
   margin-bottom: 2vw;
 }
 .newContacts_buttons{
+  margin: 20px 0px;
+  padding: 10px;
+  border: var(--blue-bg) 1px solid;
+  border-radius: 20px;
   width: 100%;
   height: 90%;
   display: flex;
   flex-flow: column;
   align-items: left;
   justify-content: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
+
+.newContacts_buttons h1{
+  font-size: 20px;
+  position: relative;
+} 
+
+.newContacts_infoBox{
+  margin-top: 2vw;
+}
+
+.newContacts_buttons h1::after{
+  content: '';
+  background-color: var(--h1-color);
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: -1vw;
+}
+
+.newContacts_buttons p span{
+  font-weight: bold;
+  color: var(--h1-color);
+}
+
+#newContacts_info{
+  text-align: left;
+}
+
+
+
 .newContacts_buttons a{
   text-decoration: none;
   color: var(--h1-color);
@@ -438,11 +477,13 @@ and (-webkit-min-device-pixel-ratio: 1){
 @media screen and (width<= 560px) {
 
   .newContacts{
+
     height: 155vh;
   }
   #otherBtn{
     height: 15vw
   }
+
 }
 
 @media screen and (width<= 500px) {
@@ -452,6 +493,10 @@ and (-webkit-min-device-pixel-ratio: 1){
   }
   .newContacts_btns p{
     font-size: 14px;
+  }
+  #img_header{
+    text-align: center;
+    line-height: 8vw;
   }
 
 }
