@@ -2356,31 +2356,28 @@ font-size: 12px;
       height: 70vh;
     }
     .front2{
-      height: 250vh;
+      height: 350vh;
       margin-top: 30px;
 
     }
     .classification-table{
       height: 95%;
-      border: green dashed;
-      gap:1vw;
+      gap:2vw;
       justify-content: start;
       align-items: start;
     }
     .class1{
       flex: 1;
-      border: red dashed;
       height: 100%;
     }
     .class1 h1{
       font-size: 16px;
-      margin-top: -40px;
-      margin-bottom: -40px;
+
 
     }
     .class1 p{
       font-size: 16px;
-      margin-top: -30px;
+      
     }
 
 
