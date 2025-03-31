@@ -280,14 +280,15 @@ display: none;
 
 /* New Header Page */
 .front1{
+  margin-top: 30px;
   width: 100%;
   height: 70vh;
   background-color: var(--white-bg);
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
+
 .sec1, .sec2{
   padding: 1vw 5vw;
   flex: 1;
@@ -295,10 +296,12 @@ display: none;
   align-items: center;
   justify-content: center;
 }
+
 .sec1{
   flex-flow: column;
   gap: 3vw;
 }
+
 .btns{
   width: 100%;
   display: flex;
@@ -306,6 +309,7 @@ display: none;
   justify-content: start;
   gap: 3vw;
 }
+
 .front1_btn{
   padding: .5vw 1vw;
   color: var(--white-bg);
@@ -324,6 +328,7 @@ display: none;
   text-align: center;
   font-size: 12px;
 }
+
 .front1_btn:hover,  .front1_btn:focus{
   color: var(--white-bg);
   background-color: var(--h2-color);
@@ -337,12 +342,15 @@ display: none;
   -ms-transition: all .3s ;
   -o-transition: all .3s ;
 }
+
 .sec2{
   padding: 0;
 }
+
 .sec2 img{
   width: 70%;
 }
+
 .sec1 p{
   font-size: 20px;
   color: var(--h2-color);
@@ -2387,7 +2395,7 @@ font-size: 12px;
      }
 
      .front1{
-      height:90vh;
+      height:110vh;
     }
     .sec1, .sec2{
       flex: 1;
@@ -2620,7 +2628,7 @@ font-size: 12px;
        display: none;
      }
 
-     .stateLogo{
+
 .class1 p{
   font-size: 15px;
 }
@@ -2796,7 +2804,7 @@ font-size: 12px;
     padding: 10px;
   }
 }
-  }
+  
 
 
   @media only screen and (width<= 400px)  
@@ -3374,11 +3382,6 @@ left: 20vw;
 width: 15vw;
 }
 
-
-
-
-
-
 @supports (backdrop-filter(blur)) {
 .container {
   display: -ms-grid;
@@ -3389,60 +3392,5 @@ width: 15vw;
   padding: 10px;
 }
 }
-
-
-/* LANDSCAPE */
-
-/* @media only screen 
-and (orientation: landscape) {
-
-  body{
-  }
-  header nav ul li a{
-    font-size: 8px;
-  }
-
-  .action{
-    height: 5vw;
-  }
-
-  .heroSpecial{
-    height: 200vh;
-  }
-
-  .container{
-    height: 160vh;
-  }
-
-  .buttons{
-    bottom: 170px;
-    right:200px;
-  }
-
-  .hero2{
-    margin-top: -90px;
-  }
-  .about-us{
-    height: 60vh;
-  }
-  #Con3{
-    height: 80vh;
-  }
-
-  #lattest{
-    height: 290vh;
-  }
-  .news{
-    height: 50vh;
-  }
-  #newsBtn{
-    height: 5vw;
-  }
-
-}
-
-
-
-
 
 
