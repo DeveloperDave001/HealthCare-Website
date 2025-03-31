@@ -172,6 +172,7 @@ display: none;
   justify-content: center;
   align-items: center;
   margin-bottom: 2vw;
+  gap: 30px;
 }
 .newContacts_btns{
   flex: 1;
@@ -254,7 +255,7 @@ display: none;
   padding: .5vw .8vw;
   border: var(--h1-color) solid 1px;
   margin: .3vw 0vw;
-  width: 60%;
+  width: 90%;
   border-radius:5px;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
@@ -493,6 +494,12 @@ and (-webkit-min-device-pixel-ratio: 1){
   }
   .newContacts_btns p{
     font-size: 14px;
+  }
+  .newContacts_btns a{
+    width: 97%;
+    font-size: 14px;
+    margin-top: 12px;
+
   }
   #img_header{
     text-align: center;

@@ -307,7 +307,7 @@ display: none;
   gap: 3vw;
 }
 .front1_btn{
-  padding: 1vw 2vw;
+  padding: .5vw 1vw;
   color: var(--white-bg);
   background-color: var(--bg-color2);
   text-decoration: none;
@@ -321,11 +321,12 @@ display: none;
   -moz-transition: all .3s ;
   -ms-transition: all .3s ;
   -o-transition: all .3s ;
+  text-align: center;
+  font-size: 12px;
 }
 .front1_btn:hover,  .front1_btn:focus{
   color: var(--white-bg);
   background-color: var(--h2-color);
-  font-size: 15px;
 }
 
 .front1_btn2{
@@ -335,9 +336,6 @@ display: none;
   -moz-transition: all .3s ;
   -ms-transition: all .3s ;
   -o-transition: all .3s ;
-}
-.front1_btn2:hover, .front1_btn2:focus{
-  font-size: 15px;
 }
 .sec2{
   padding: 0;
@@ -1593,6 +1591,9 @@ font-size: 12px;
     .sec1{
       order: 1;
     }
+    .sec1 p{
+      text-align: center;
+    }
     .btns{
       display: flex;
       align-items: center;
@@ -2154,7 +2155,7 @@ font-size: 12px;
       display: none;
     }
     .front1{
-      height: 90vh;
+      height: 100vh;
     }
     .front2{
       height: 260vh;
@@ -2168,7 +2169,7 @@ font-size: 12px;
     .btns{
       display: flex;
       flex-flow: column nowrap;
-      height: 30vw;
+      height: 40vw;
     }
 
      .front1_btn{
@@ -2195,7 +2196,6 @@ font-size: 12px;
     .front1_btn2:hover,  .front1_btn2:focus{
       color: var(--white-bg);
       background-color: var(--h2-color);
-      font-size: 15px;
     }
     
 
@@ -2517,7 +2517,7 @@ font-size: 12px;
       width: 40px;
      }
      .footer{
-      height: 160vw;
+      height: 180vw;
       width: 80%;
       padding: 3vw 2vw;
      }
@@ -2722,11 +2722,7 @@ font-size: 12px;
      .news img{
       width: 40px;
      }
-     .footer{
-      height: 160vw;
-      width: 80%;
-      padding: 3vw 2vw;
-     }
+
      .footerNav{
       visibility: hidden;
      }
