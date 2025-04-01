@@ -2396,12 +2396,10 @@ font-size: 12px;
 
      .front1{
       height:110vh;
-      border: red dashed;
     }
     .sec1, .sec2{
       flex: 1;
       width: 100%;
-      border: red dashed;
     }
     .sec2 img{
       width: 100%;
