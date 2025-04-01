@@ -2396,14 +2396,26 @@ font-size: 12px;
 
      .front1{
       height:110vh;
+      border: red dashed;
     }
     .sec1, .sec2{
       flex: 1;
       width: 100%;
+      border: red dashed;
     }
     .sec2 img{
       width: 100%;
       padding: 0;
+  }
+  .btns{
+    margin-top: 20px;
+  }
+  .btns p{
+    font-size: 14px;
+  }
+  .btns a{
+    border: rgb(41, 41, 41) dashed;
+    font-size: 16px;
   }
 
     .front2{
@@ -3210,19 +3222,15 @@ and (-webkit-min-device-pixel-ratio: 1){
 
 
   body{
- 
 overflow-x: hidden;
 position: relative;
 margin-top: 6vw;
-
 }
 
 header nav{
 display: none;
 }
-/* header img{
-display: none;
-} */
+
 
 
 
@@ -3230,6 +3238,7 @@ display: none;
 width: 90%;
 gap: 1vw;
 }
+
 .search input{
 height: 4vh;
 width: 80%;
@@ -3288,9 +3297,6 @@ width: 80%;
     margin-bottom: -15vw;
   }
 
-
-
-
   .news{
     height: 30vh;
     font-size: 14px;
@@ -3298,9 +3304,11 @@ width: 80%;
         -ms-flex: 1 1 calc(60%);
             flex: 1 1 calc(60%);
    }
+
    .news img{
     width: 40px;
    }
+
    .footer{
     height: 250vw;
     width: 80%;
@@ -3309,23 +3317,27 @@ width: 80%;
    .footerNav{
     visibility: hidden;
    }
+
     .footerBox{
       padding: 5px;
       width: 100%;
       height: 100%;
     }
+
     .footerContent h2{
       font-size: 20px;
     }
+
     .footerContent{
       font-size: 14px;
       width: 63vw;
+    } 
+
+    .year p{
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 3vw;
     }
-.year p{
-font-size: 4vw;
-text-align: center;
-margin-bottom: 3vw;
-}
     .registerPageForMobile{
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3392,5 +3404,3 @@ width: 15vw;
   padding: 10px;
 }
 }
-
-
