@@ -359,7 +359,7 @@ display: none;
 /* New Header Page2 */
 .front2{
   width: 100%;
-  height: 130vh;
+  height: 140vh;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -996,7 +996,7 @@ text-align: center;
 
 @media screen and (width<= 1380px){
   .front2{
-    height: 100vh;
+    height: 150vh;
     padding: 2vw;
   }
   .header_front2{
