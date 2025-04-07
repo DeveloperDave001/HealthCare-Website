@@ -54,7 +54,6 @@ input, textarea{
     --transitin:.4s ease;
   }
   header{
-    border:red dashed;
     width: 100%;
     height: 3.5vw;
     display: flex;
