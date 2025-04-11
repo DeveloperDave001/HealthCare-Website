@@ -294,7 +294,6 @@ display: none;
   align-items: center;
   justify-content: center;
   gap: 2vw;
-  padding: 2vw;
 }
 .visionpage, .missionpage{
   flex: 1;
