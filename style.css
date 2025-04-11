@@ -414,11 +414,13 @@ display: none;
   font-weight: 600;
   margin-top: 10px;
   color: var(--h2-color);
+  text-align: center;
 }
 .class1 p{
   color: #797979;
   font-size: 14px;
   text-align: center;
+  padding: 10px;
 }
 
 .img_class1{
