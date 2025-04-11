@@ -312,11 +312,12 @@ display: none;
   background-color: var(--bg-color2);
 }
 
-.visionpage p, .missionpage p{
+.missionVisionPage p{
   padding: 2vw;
   color: var(--white-bg);
+  text-align: center;
 }
-.visionpage h1, .missionpage h1{
+.missionVisionPage h1{
   color: var(--white-bg);
 }
 
@@ -446,6 +447,41 @@ display: none;
 }
 }
 
+@media screen and (width<= 768px) 
+and (-webkit-min-device-pixel-ratio: 1){
+  #otherBtn{
+    height: 6vw
+  }
+  .headingSection{
+    background-color: transparent;
+    mix-blend-mode: normal;
+  }
+
+  .moreinfo{
+    min-height: 40vh;
+  }
+  .moreinfo h1{
+    text-align: center;
+  }
+  .moreinfo a{
+    text-align: center;
+  }
+  #BIIHMISLogo{
+    display: flex;
+    position: absolute;
+    left: 20vw;
+    width: 15vw;
+  }
+  .missionVisionPage{
+    height: 80vh;
+    flex-direction: column;
+    border: red dashed;
+  }
+  .missionVisionPage p{
+    text-align: center;
+  }
+}
+
 @media screen and (width<= 640px) {
   .newContacts{
     flex-flow: column;
@@ -477,35 +513,7 @@ text-align: center;
 }
 }
 
-@media screen and (width<= 768px) 
-and (-webkit-min-device-pixel-ratio: 1){
-  #otherBtn{
-    height: 6vw
-  }
-  .headingSection{
-    background-color: transparent;
-    mix-blend-mode: normal;
-  }
 
-  .moreinfo{
-    min-height: 40vh;
-  }
-  .moreinfo h1{
-    text-align: center;
-  }
-  .moreinfo a{
-    text-align: center;
-  }
-  #BIIHMISLogo{
-    display: flex;
-    position: absolute;
-    left: 20vw;
-    width: 15vw;
-  }
-  
-
-  
-}
 
 
 @media screen and (width<= 560px) {
@@ -537,6 +545,9 @@ and (-webkit-min-device-pixel-ratio: 1){
   #img_header{
     text-align: center;
     line-height: 8vw;
+  }
+  .missionVisionPage{
+    height: 100vh;
   }
 
 }
