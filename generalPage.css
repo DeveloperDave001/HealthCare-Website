@@ -475,7 +475,6 @@ and (-webkit-min-device-pixel-ratio: 1){
   .missionVisionPage{
     height: 80vh;
     flex-direction: column;
-    border: red dashed;
   }
   .missionVisionPage p{
     text-align: center;
