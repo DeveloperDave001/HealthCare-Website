@@ -355,6 +355,9 @@ display: none;
   font-size: 20px;
   color: var(--h2-color);
 }
+.front1_img_header{
+  display: none;
+}
 
 /* New Header Page2 */
 .front2{
@@ -1596,7 +1599,7 @@ font-size: 12px;
     }
 
     .front1{
-      height: 90vh;
+      height: 120vh;
       flex-flow: column;
     }
     .sec1{
@@ -1604,6 +1607,15 @@ font-size: 12px;
     }
     .sec1 p{
       text-align: center;
+    }
+    .sec2{
+      display: flex;
+      flex-flow: column nowrap;
+    }
+    .front1_img_header{
+      display: flex;
+      color: var(--bg-color2);
+      letter-spacing: 2vw;
     }
     .btns{
       display: flex;
@@ -2415,7 +2427,6 @@ font-size: 12px;
     font-size: 14px;
   }
   .btns a{
-    border: rgb(41, 41, 41) dashed;
     font-size: 16px;
   }
 
