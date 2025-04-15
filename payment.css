@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+  flex-direction: column;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+  justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+input, textarea{
+  font: poppins;
+}
+:root {
+    /* Header Variables */
+    --h1-font-size: 2.5rem; 
+    --h1-color: #046400;
+    --nav-font:.95rem;
+    --nav-fontW: bolder;
+    --text-color:#ffffff;
+    --text-size: 1rem;
+    --white-bg:#ffffff;
+    --blue-bg:#128803;
+  
+    --h2-font-size: 2rem; 
+    --h2-color: #555555;
+  
+    /* Background Color */
+    --bg-color: #e8e8e8; 
+    --bg-color2: #005e00; 
+    /* Button Color */
+    --btn-color: #ffffff; 
+    --btn-border: #177200 solid 1.5px;
+    --btn-padding:.5vw 1vw;
+    --border-r:30px;
+    --transitin:.5s ease;
+    --simpleColor:#186600;
+    --text_bg:#1b8d04ad;
+    --bg_fade:#2d9b17;
+    --bg_fade2:#519145;
+  }
+
+
+  .hero1{
+    width: 100%;
+    height: 100vh;
+    background-color: #009c0075;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .bg_text{
+    position: absolute;
+    margin: auto;
+    font-size: 9.5vw;
+    color: #046400;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+  .payment_options{
+    z-index: 1;
+    width: 60vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 20px;
+    background-color: #ffffffe7;
+    backdrop-filter: blur(1.5px);
+    box-shadow: #1d1d1d7e 0 0 60px;
+        transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+  }
+  .payment_options_heeader{
+    color: #005e00;
+    margin-bottom: 2vw;
+    font-size: 3vw;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 20px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+td:first-child {
+    width: 55%; /* Make the Banks column wider */
+}
+
+td:last-child {
+    width: 45%; /* Make the Details column narrower */
+}
