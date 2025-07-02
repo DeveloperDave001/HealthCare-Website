@@ -33,6 +33,8 @@
         loop: true,
         margin: 30,
         autoplay: true,
+        autoplayTimeout:1500,
+        smartSpeed: 500,
         responsiveClass: true,
         responsive:{
             0:{
