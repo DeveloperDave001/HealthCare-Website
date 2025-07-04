@@ -500,11 +500,20 @@ main {
 }
 .mb-2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5vw;
 }
 .row{
   margin-bottom: 2vw;
 }
+.custom-block-info{
+  background-color: var(--custom-btn-bg-color);
+}
+.mb-1 a{
+  color: #ffffff;
+}
+.mb-0{
+  pointer-events: none;
+}
+
 
 
 

@@ -87,6 +87,10 @@ input, textarea{
  .navForMobile{
 display: none;
  }
+ .navForMobile li{
+  list-style: none;
+ }
+
  .MobileHeader{
 display: none;
  }
@@ -213,70 +217,6 @@ display: none;
   height: 100%; 
   object-fit: cover; 
 }
-
-
-
-
-
-
-
-/*   .hero1{
-    width: 100%;
-    height: 100vh;
-    background-color: var(--bg-color);
-    background-image: url(header_pics.jpg);
-    background-position: center;
-    background-size: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-radius: 30px;
-    position: relative;
-    padding: 2vw;
-    gap: 2vw;
-    -webkit-transition: var(--transitin);
-    -o-transition: var(--transitin);
-    transition: var(--transitin);
-    z-index: 1;
-  }
-  .cover{
-    width: 100%;
-    height: 100%;
-    background-image:linear-gradient(90deg, var(--bg_fade), #ffffff00);
-    position: absolute;
-    border-radius: 30px;
-    z-index: -1;
-    opacity: .3;
-
-
-  }
-
-.hero1::after{
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #7676ff;
-  position: absolute;
-  border-radius: 30px;
-  opacity: 0;
-  -webkit-transition: var(--transitin);
-  -o-transition: var(--transitin);
-  transition: var(--transitin);
-  -moz-transition: var(--transitin);
-  -ms-transition: var(--transitin);
-} */
-
-
 
 /* New Header Page */
 .front1{
