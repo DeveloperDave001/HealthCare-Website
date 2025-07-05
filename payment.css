@@ -128,6 +128,7 @@ td {
 
 td:first-child {
   width: 55%; /* Make the Banks column wider */
+  margin: auto;
 }
 
 td:last-child {
@@ -135,6 +136,22 @@ td:last-child {
 }
 td a {
   color: #005e00;
+}
+
+.bank_id{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+}
+.bank_id p{
+font-weight: bold;
+}
+
+td img{
+  width: 4rem;
 }
 
 @media screen and (width<=700px) {
