@@ -80,7 +80,7 @@ textarea {
 .payment_options {
   z-index: 1;
   width: 60vw;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
