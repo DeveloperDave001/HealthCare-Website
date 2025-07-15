@@ -726,13 +726,21 @@ visibility: hidden;
    .newsHead{
     font-weight: bolder;
     text-decoration: underline;
+        -webkit-transition: var(--transitin);
+    -o-transition: var(--transitin);
+    transition: var(--transitin);
     color: var(--simpleColor);
    }
 
    .news:hover, .news:focus{
-    background-color: #7676ff;
+    background-color: var(--bg-color2);
     color: #ffffff;
    }
+
+   :is(.news:hover, .news:focus) .newsHead{
+    color: var(--bg-color);
+   }
+
    .news img{
     width: 15%;
     -o-object-fit: cover;
