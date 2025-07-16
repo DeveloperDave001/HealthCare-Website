@@ -3441,7 +3441,6 @@ position: absolute;
 left: 20vw;
 width: 15vw;
 }
-
 @supports (backdrop-filter(blur)) {
 .container {
   display: -ms-grid;
@@ -3450,5 +3449,6 @@ width: 15vw;
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
+}
 }
 }
